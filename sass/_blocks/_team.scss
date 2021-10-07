@@ -1,0 +1,75 @@
+.team{
+    margin-bottom: 163px;
+    &__box{
+        max-width: 1723px;
+        margin: 0 auto;
+        margin-top: 45px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item{
+        width: 392px;
+        // &:first-child{
+        //     &::after{
+        //         width: 100px;
+        //         height: 100px;
+        //         content: '';
+        //         background-image: url('/img/Vector_icon.svg');
+        //         // background-repeat: no-repeat;
+        //         // background-position: center;
+        //         // position: absolute;
+        //     }
+        // }
+    }
+    &__imgbox{
+        width: 363px;
+        height: 594px;
+        position: relative;
+        cursor: pointer;
+        &:hover .team__imghover{
+            transform: scale(1);
+        }
+    }
+    &__imghover{
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(255, 255, 255, 0.1);
+        border: 2px solid rgba(87, 87, 87, 0.79);
+        backdrop-filter: blur(33px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: 0.5s;
+        transform: scale(0);
+        &--text{
+            padding: 51px 17px;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 156.02%;
+            color: #FFFFFF;
+            border: 2px solid #B1ACAC;
+            border-radius: 50%;
+        }
+    }
+    &__img{
+        width: 363px;
+        height: 594px;
+    }
+    &__title{
+        margin-top: 13px;
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 156.02%;
+        text-transform: uppercase;
+        color: rgba(255, 255, 255, 0.5);
+    }
+    &__text{
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 156.02%;
+        color: #FFFFFF;
+    }
+}

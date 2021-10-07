@@ -1,0 +1,74 @@
+.footer{
+    opacity: 0.7;
+    background-color: white;
+    &__wrapper{
+        margin-bottom: 50px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item{
+        display: flex;
+        flex-direction: column;
+    }
+    &__logo{
+        transform: translateY(-20px);
+        width: 189px;
+        height: 100px;
+    }
+    &__icon{
+        margin-right: 13px;
+        width: 35px;
+        height: 32.5px;
+        &--box{
+            margin:0 0 24px;
+            display: flex;
+        }
+    }
+    &__title{
+        width: 492px;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 109.52%;
+        color: rgba(71, 71, 71, 0.5);
+    }
+    &__contact{
+        &--item{
+            &:first-child{
+                margin-bottom: 32.6px;
+            }
+            &:nth-child(2){
+                margin-bottom: 28px;
+            }
+        }
+        &--title{
+            font-weight: bold;
+            font-size: 26px;
+            line-height: 109.52%;
+            color: rgba(0, 0, 0, 0.8);
+        }
+        &--link{
+            font-weight: normal;
+            font-size: 26px;
+            line-height: 109.52%;
+            color: rgba(0, 0, 0, 0.5);
+        }
+    }
+    &__link{
+        &--box li{
+            margin-bottom: 14px;
+        }
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 109.52%;
+        color: rgba(71, 71, 71, 0.5);
+    }
+    &__bottom{
+        padding: 24px 0;
+        display: flex;
+        justify-content: space-between;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 109.52%;
+        color: rgba(71, 71, 71, 0.8);
+    }
+}

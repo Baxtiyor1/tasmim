@@ -1,0 +1,10 @@
+.partner{
+    padding-top: 22px;
+    background-color: #fff;
+    &__menu{
+        padding: 56px 0 35px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

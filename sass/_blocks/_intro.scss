@@ -1,0 +1,115 @@
+.intro{
+    position: relative;
+    padding: 96px 0 65px;
+    background-color: #fff;
+    &::after{
+        position: absolute;
+            width: 21px;
+            height: 206px;
+            content: '';
+            background-image: url('/img/sichqoncha_img.svg');
+            background-repeat: no-repeat;
+            background-position: center;
+            transform: translateX(900px) translateY(-70px);
+    }
+    &__item{
+        &:nth-child(2){
+            display: flex;
+        }
+        &:nth-child(4){
+            margin-bottom: 198px;
+        }
+    }
+    &__text{
+        &--creativno{
+            margin-left: 87px;
+            background-image: url('/img/kreativno_bg.png');
+            -webkit-background-clip: text;
+            color: transparent;
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-weight: bold;
+            font-size: 150px;
+            line-height: 100.52%;
+            text-transform: uppercase;
+        }
+        &--marketing{
+            background-image: url('/img/marketing_bg.png');
+            -webkit-background-clip: text;
+            color: transparent;
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-weight: bold;
+            font-size: 150px;
+            line-height: 100.52%;
+            text-transform: uppercase;
+        }
+        &--agentsva{
+            margin-left: 616px;
+            background-image: url('/img/agenstvo_bg.png');
+            -webkit-background-clip: text;
+            color: transparent;
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-weight: bold;
+            font-size: 150px;
+            line-height: 100.52%;
+            text-transform: uppercase;
+        }
+        &--smart{
+            margin-left: 177px;
+            padding-top: 13px;
+            width: 167px;
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 100.52%;
+            text-align: right;
+            color: rgba(0, 0, 0, 0.6);
+        }
+        &--discription{
+            width: 545px;
+            margin-left: 1125px;
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 100.52%;
+            text-align: center;
+            color: rgba(0, 0, 0, 0.6);
+            text-align: center;
+        }
+        &--btn{
+            position: relative;
+            padding: 40-23px;
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 100.52%;
+            color: rgba(0, 0, 0, 0.6);
+            &--icon{
+                position: absolute;
+                transform: translateY(-7px) translateX(-18px);
+                width: 40px;
+                height: 40px;
+                border: 2px solid rgba(237, 17, 29, 0.7);
+                border-radius: 50%;
+            }
+        }
+    }
+    &__message--icon{
+        position: fixed;
+        top: 730px;
+        right: 100px;
+    }
+    &__icon--box{
+        margin-left: 453px;
+        max-height: 129px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        & img{
+            opacity: 0.5;
+            &:hover{
+                opacity: 1;
+            }
+        }
+    }
+}

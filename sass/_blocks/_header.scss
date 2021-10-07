@@ -1,0 +1,43 @@
+.header{
+    background-color: #fff;
+    &__menu{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__item{
+        &:first-child{
+            display: flex;
+            align-items: center;
+        }
+    }
+    &__box{
+        margin-right: 6px;
+        width: 31px;
+        height: 31px;
+        background: #FFFFFF;
+        border: 3px solid #EB0C0C;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        &--intro{
+            width: 17px;
+            height: 17px;
+            background-color: #EB0C0C;
+        }
+    }
+    &__text{
+        font-size: 20px;
+        line-height: 100.52%;
+        text-transform: uppercase;
+    }
+    &__phone--link{
+        padding: 14px 30px;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 100.52%;
+        background: #ED111D;
+        border-radius: 5px;
+        color: #fff;
+    }
+}
