@@ -108,7 +108,7 @@ body {
   width: 21px;
   height: 206px;
   content: '';
-  background-image: url("/img/sichqoncha_img.svg");
+  background-image: url("../img/sichqoncha_img.svg");
   background-repeat: no-repeat;
   background-position: center;
   -webkit-transform: translateX(900px) translateY(-70px);
@@ -127,7 +127,7 @@ body {
 
 .intro__text--creativno {
   margin-left: 87px;
-  background-image: url("/img/kreativno_bg.png");
+  background-image: url("../img/kreativno_bg.png");
   -webkit-background-clip: text;
   color: transparent;
   background-repeat: no-repeat;
@@ -139,7 +139,7 @@ body {
 }
 
 .intro__text--marketing {
-  background-image: url("/img/marketing_bg.png");
+  background-image: url("../img/marketing_bg.png");
   -webkit-background-clip: text;
   color: transparent;
   background-repeat: no-repeat;
@@ -152,7 +152,7 @@ body {
 
 .intro__text--agentsva {
   margin-left: 616px;
-  background-image: url("/img/agenstvo_bg.png");
+  background-image: url("../img/agenstvo_bg.png");
   -webkit-background-clip: text;
   color: transparent;
   background-repeat: no-repeat;
