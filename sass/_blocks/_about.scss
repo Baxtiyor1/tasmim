@@ -3,7 +3,6 @@
     &__img{
         position: relative;
         width: 1276px;
-        height: 851px;
     }
     &__box{
         margin-top: 144px;
@@ -15,7 +14,8 @@
         position: absolute;
         display: flex;
         height: 50px;
-        transform: translateY(-114px) translateX(1137px);
+        right: 0;
+        bottom: 50px;
     }
     &__array{
         width: 78px;
@@ -53,5 +53,81 @@
         font-size: 18px;
         line-height: 100.52%;
         color: rgba(255, 255, 255, 0.3);
+    }
+}
+
+// *****************
+// MEDIA
+// *****************
+@media screen and (max-width: 1300px) {
+    .about{
+        &__img{
+            width: 100%;
+        }
+        &__text{
+            top: 35%;
+            width: 660px;
+            font-size: 32px;
+        }
+        &__eye{
+            width: 300px;
+            top: -104px;
+        }
+    }
+}
+@media screen and (max-width: 950px) {
+    .about{
+        &__text{
+            width: 100%;
+            font-size: 24px;
+            line-height: 140%;
+        }
+        &__arraybox{
+            bottom: -53px;
+        }
+        &__subtext{
+            text-align: left;
+        }
+        &__eye{
+            top: -87px;
+            width: 250px;
+        }
+    }
+}
+@media screen and (max-width: 700px) {
+    .about{
+        &__box{
+            margin-top: 77px;
+        }
+        &__eye{
+            top: -62px;
+            width: 180px;
+        }
+    }
+}
+@media screen and (max-width: 500px) {
+    .about{
+        &__text{
+            font-size: 16px;
+        }
+        &__eye{
+            top: -40px;
+            width: 117px;
+        }
+        &__subtext{
+            font-size: 11px;
+        }
+        &__arraybox{
+            height: auto;
+            bottom: -32px;
+        }
+        &__array{
+            width: 40px;
+        }
+        &__ellips{
+            width: 30px;
+            height: 30px;
+            transform: translateX(-18px);
+        }
     }
 }

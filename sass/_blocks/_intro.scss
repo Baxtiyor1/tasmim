@@ -2,15 +2,18 @@
     position: relative;
     padding: 96px 0 65px;
     background-color: #fff;
-    &::after{
-        position: absolute;
+    &__container{
+        &::after{
+            position: absolute;
             width: 21px;
             height: 206px;
             content: '';
             background-image: url('/img/sichqoncha_img.svg');
             background-repeat: no-repeat;
             background-position: center;
-            transform: translateX(900px) translateY(-70px);
+            left: 50%;
+            bottom: -17%;
+        }
     }
     &__item{
         &:nth-child(2){
@@ -22,7 +25,7 @@
     }
     &__text{
         &--creativno{
-            margin-left: 87px;
+            margin-left: 5%; //87px
             background-image: url('/img/kreativno_bg.png');
             -webkit-background-clip: text;
             color: transparent;
@@ -45,7 +48,7 @@
             text-transform: uppercase;
         }
         &--agentsva{
-            margin-left: 616px;
+            margin-left: 36%;  // 616px
             background-image: url('/img/agenstvo_bg.png');
             -webkit-background-clip: text;
             color: transparent;
@@ -57,7 +60,7 @@
             text-transform: uppercase;
         }
         &--smart{
-            margin-left: 177px;
+            margin-left: 10%;  // 177px
             padding-top: 13px;
             width: 167px;
             font-weight: bold;
@@ -68,7 +71,7 @@
         }
         &--discription{
             width: 545px;
-            margin-left: 1125px;
+            margin-left: 58%; // 1125px
             font-weight: bold;
             font-size: 20px;
             line-height: 100.52%;
@@ -95,11 +98,12 @@
     }
     &__message--icon{
         position: fixed;
+        z-index: 9;
         top: 730px;
         right: 100px;
     }
     &__icon--box{
-        margin-left: 453px;
+        margin-left: 26%; //453px
         max-height: 129px;
         display: flex;
         flex-direction: column;

@@ -9,11 +9,11 @@
 </head>
 <body>
     
-    <header class="header">
+    <!-- <header class="header">
         <div class="container">
             <nav class="header__nav">
                 <ul class="header__menu">
-                    <li class="header__item">
+                    <li id="modal_open" class="header__item">
                         <div class="header__box">
                             <span class="header__box--intro"></span>
                         </div>
@@ -23,16 +23,37 @@
                         <a href="#"><img class="header__logo" src="./img/Tasmim_logo.svg" alt="logo" width="189" height="107"></a>
                     </li>
                     <li class="header__item">
+                        <a class="header__phone--icon" href="#"><img src="./img/phone_icon.svg" alt="phone" width="28" height="28"></a>
                         <a class="header__phone--link" href="#">Позвонить</a>
                     </li>
                 </ul>
+                <div class="modal">
+                    <div class="modal__aside">
+                        <button class="modal__btn" type="button"><img src="./img/modalCloseBtn.svg" alt="close"></button>
+                        <ul class="modal__list">
+                            <li class="modal__item"><a class="modal__link" href="#">Услуги и прайс</a></li>
+                            <li class="modal__item"><a class="modal__link" href="#">О нас</a></li>
+                            <li class="modal__item"><a class="modal__link" href="#">Блог</a></li>
+                            <li class="modal__item"><a class="modal__link" href="#">Наша команда</a></li>
+                            <li class="modal__item"><a class="modal__link" href="#">Портфолио</a></li>
+                            <li class="modal__item"><a class="modal__link" href="#">Контакты</a></li>
+                        </ul>
+                    </div>
+                    <div class="modal__bside">
+                        <p class="modal__footer">
+                            Email: info@tasmim.uz <br> <br>
+                            Адрес: г.Ташкент, .... <br> <br>
+                            Тел: +998 (94) 522 22 22
+                        </p>
+                    </div>
+                </div>
             </nav>
         </div>
-    </header>
+    </header> -->
     
     <main>
-        <section class="intro">
-            <div class="container">
+         <section id="intro" class="intro">
+            <div class="container intro__container">
                 <ul class="intro__menu">
                     <li class="intro__item">
                         <p class="intro__text--creativno">Креативное</p>
@@ -62,16 +83,16 @@
             </div>
         </section>
         
-        <section class="price">
+        <!-- <section id="price" class="price">
             <div class="container">
                 <div class="price__intro--header">
                     <img class="price__intro--icon" src="./img/Vector_icon.svg" alt="vektor">
                     <p class="price__intro--title">УСЛУГИ  И ПРАЙС</p>
                 </div>
                 <ul class="price__title">
-                    <li class="price__title--item"><button class="price__title--btn" type="button">Web-разработка</button></li>
-                    <li class="price__title--item"><button class="price__title--btn" type="button">Продвижение</button></li>
-                    <li class="price__title--item"><button class="price__title--btn" type="button">Extra услуги</button></li>
+                    <li class="price__title--item"><button id="web" class="price__title--btn price__title--btn--active" type="button">Web-разработка</button></li>
+                    <li class="price__title--item"><button id="prod" class="price__title--btn" type="button">Продвижение</button></li>
+                    <li class="price__title--item"><button id="extra" class="price__title--btn" type="button">Extra услуги</button></li>
                 </ul>
                 <ul class="price__box">
                     <li class="price__box--item">
@@ -94,7 +115,8 @@
                         <fieldset class="price__box--fieldset"> 
                             <legend class="price__box--legend">
                                 <span class="price__box--disk"></span>
-                                Интернет - магазин </legend>
+                                Интернет - магазин 
+                            </legend>
                             <p class="price__box--text">
                                 Берём на себя весь спектр работ по созданию, разработке и продвижению в рамках развития интернет-магазина.
                             </p>
@@ -108,7 +130,8 @@
                         <fieldset class="price__box--fieldset"> 
                             <legend class="price__box--legend">
                                 <span class="price__box--disk"></span>
-                                Личный блог </legend>
+                                Личный блог 
+                            </legend>
                             <p class="price__box--text">
                                 Наша опытная команда разработает для вас по-настоящему особенный проект.
                                 <br><br>
@@ -124,7 +147,8 @@
                         <fieldset class="price__box--fieldset"> 
                             <legend class="price__box--legend">
                                 <span class="price__box--disk"></span>
-                                Сайт - визитка </legend>
+                                Сайт - визитка 
+                            </legend>
                             <p class="price__box--text">
                                 Зачастую небольшой сайт без технических ограничений, презентующий услуги или товар.
                                 <br><br>
@@ -138,9 +162,9 @@
                     </li>
                 </ul>
             </div>
-        </section>
+        </section> -->
         
-        <section class="about">
+         <!-- <section id="about" class="about">
             <div class="container">
                 <div class="price__intro--header">
                     <img class="price__intro--icon" src="./img/Vector_icon.svg" alt="vektor">
@@ -149,7 +173,8 @@
                 <div class="about__box">
                     <span class="about__wrapper">
                         <p class="about__text">
-                            Аудитория <span class="about__text--red">360 °</span> компания - под управлением современного и ориентированного на потребности собственника
+                            Аудитория <span class="about__text--red">360 °</span> компания - под <br> управлением современного и <br>
+                            ориентированного на <br> потребности собственника
                         </p>
                         <img class="about__eye" src="./img/eye.svg" alt="eye">
                         <img class="about__img" src="./img/about_img.png" alt="img">
@@ -161,9 +186,9 @@
                 </div>
                 <p class="about__subtext">Photo by :  Del Rosso</p>
             </div>
-        </section>
+        </section> -->
         
-        <section class="team">
+        <!-- <section id="team" class="team">
             <div class="container">
                 <div class="price__intro--header">
                     <img class="price__intro--icon" src="./img/Vector_icon.svg" alt="vektor">
@@ -212,9 +237,9 @@
                     </li>
                 </ul>
             </div>
-        </section>
+        </section> -->
         
-        <section class="partner">
+        <!-- <section id="partner" class="partner">
             <div class="container">
                 <div class="price__intro--header">
                     <img class="price__intro--icon" src="./img/Vector_icon.svg" alt="vektor">
@@ -228,9 +253,9 @@
                     <li class="partner__link"><a href="#"><img src="./img/partner_perfectum.png" alt="img"></a></li>
                 </ul>
             </div>
-        </section>
+        </section> -->
         
-        <section class="blog">
+        <!-- <section id="blog" class="blog">
             <div class="container">
                 <div class="price__intro--header">
                     <img class="price__intro--icon" src="./img/Vector_icon.svg" alt="vektor">
@@ -240,22 +265,26 @@
                     <li class="blog__item">
                         <p class="blog__title">SEO - поисковое продвижение | 11.09.21</p>
                         <p class="blog__discription">Новый апдейт Google Title Tag Update - как изменится поисковая выдача с обновлением алгоритма формирования тега title</p>
-                        <button class="blog__btn" type="button">Читать далее →</button>
+                        <a class="blog__btn" href="#">Читать далее →</a>
                     </li>
                     <li class="blog__item">
                         <p class="blog__title">SMM - продвижение в соцсетях | 31.08.21</p>
                         <p class="blog__discription">Что такое таргетинг в Фейсбуке и каковы его возможности для продвижения бизнеса в соцсетях</p>
-                        <button class="blog__btn" type="button">Читать далее →</button>
+                        <a class="blog__btn" href="#">Читать далее →</a>
                     </li>
                 </ul>
                 <div class="blog__numbers">
-                    <p class="blog__numbers--text">1 2 3 . . .</p>
+                    <ul class="blog__numbers--box">
+                        <li class="blog__numbers--num">1</li>
+                        <li class="blog__numbers--num">2</li>
+                        <li class="blog__numbers--num">3</li>
+                        <li class="blog__numbers--num">...</li>
+                    </ul>
                     <button class="blog__numbers--btn" type="button">Далее >></button>
-                    <hr class="blog__numbers--line">
                 </div>
                 <div class="contact">
                     <h2 class="contact__title">НАПИШИТЕ НАМ.</h2>
-                    <div class="contact__box">
+                    <form class="contact__box">
                         <div class="contact__aside">
                             <input class="contact__input" type="text" placeholder="Ваше имя">
                             <img class="contact__line" src="./img/input_underline.svg" alt="img">
@@ -269,13 +298,13 @@
                             <img src="./img/textarea_underline.svg" alt="img">
                             <button class="contact__btn" type="submit">Отправить</button>
                         </div>
-                    </div>
+                    </form>
                 </div>
             </div>
-        </section>
+        </section> -->
     </main>
     
-    <footer class="footer">
+    <!-- <footer class="footer">
         <div class="container">
             <ul class="footer__wrapper">
                 <li class="footer__item">
@@ -309,11 +338,11 @@
                 </li>
                 <li class="footer__item">
                     <ul class="footer__link--box">
-                        <li><a class="footer__link" href="#">Услуги</a></li>
-                        <li><a class="footer__link" href="#">О нас</a></li>
+                        <li><a class="footer__link" href="#price">Услуги</a></li>
+                        <li><a class="footer__link" href="#about">О нас</a></li>
                         <li><a class="footer__link" href="#">Проекты</a></li>
-                        <li><a class="footer__link" href="#">Контакты</a></li>
-                        <li><a class="footer__link" href="#">Нашы учредители</a></li>
+                        <li><a class="footer__link" href="#blog">Контакты</a></li>
+                        <li><a class="footer__link" href="#team">Нашы учредители</a></li>
                     </ul>
                 </li>
             </ul>
@@ -325,7 +354,7 @@
                 <p>Все права защищены.</p>
             </div>
         </div>
-    </footer>
+    </footer> -->
     
     
     

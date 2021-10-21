@@ -24,15 +24,23 @@
         color: #FFFFFF;
     }
     &__btn{
+        display: inline-block;
         margin-left: 419px;
         margin-top: 38px;
         font-weight: 500;
         font-size: 26px;
         line-height: 156.02%;
         color: #FFFFFF;
-        background-color: transparent;
         border: none;
         cursor: pointer;
+        background: 
+        linear-gradient(currentColor 0 0) 
+        bottom /var(--d, 0) 3px 
+        no-repeat;
+        transition:0.5s;
+        &:hover{
+            --d: 100%;
+        }
     }
     &__numbers{
         width: 300px;
@@ -41,27 +49,32 @@
         display: flex;
         align-items: center;
         position: relative;
-        &--text{
+        &--box{
             margin-right: 20px;
             font-weight: 500;
             font-size: 30px;
             line-height: 156.02%;
             color: #fff;
+            display: flex;
+        }
+        &--num{
+            margin-right: 20px;
+            &:first-child{
+                border-bottom: 6px solid #fff;
+                border-radius: 2px;
+            }
         }
         &--btn{
             padding: 13px 18px;
             font-weight: 500;
             font-size: 18px;
             line-height: 100.52%;
-        }
-        &--line{
-            position: absolute;
-            height: 0;
-            width: 15px;
-            border-radius: 8px;
-            background-color: #FFFFFF;
-            bottom: -4px;
-            border: 5px solid #FFFFFF;
+            cursor: pointer;
+            background: #fff;
+            transition: 0.5s;
+            &:hover{
+                box-shadow: 0 0 3px 3px #fff;
+            }
         }
     }
 }
