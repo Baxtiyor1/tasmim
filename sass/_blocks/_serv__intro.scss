@@ -1,0 +1,128 @@
+.service__intro{
+    background: #fff;
+    padding-bottom: 171px;
+    &--link{
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 135%;
+        text-align: center;
+        color: rgba(0, 0, 0, 0.5);
+    }
+    &-wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    &-text{
+        font-size: 26px;
+        font-weight: 400;
+        line-height: 34px;
+        text-align: center;
+        width: 872px;
+        margin: 48px 0 54px;
+        
+        &--bold{
+            font-weight: 700;
+        }
+    }
+    &-img{
+        max-width: 100%;
+    }
+}
+@media only screen and (max-width: 1440px) {
+    .service__intro{
+        padding-bottom: 171px;
+        &-text{
+            width: 750px;
+        }
+        &-img{
+            width: 720px;
+        }
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .service__intro{
+        padding-bottom: 171px;
+        &-text{
+            font-size: 26px;
+            width: 654px;
+            margin: 48px 0 54px;
+        
+        }
+        &-img{
+            width: 610px;
+        }
+    }
+}
+@media only screen and (max-width: 768px) {
+    .service__intro{
+        padding-bottom: 151px;
+        &-text{
+            font-size: 22px;
+            width: 600px;
+            margin: 40px 0 48px;
+            
+        }
+        &-img{
+            width: 570px;
+        }
+    }
+}
+@media only screen and (max-width: 630px) {
+    .service__intro{
+        padding-bottom: 141px;
+        &-text{
+            font-size: 22px;
+            width: 420px;
+            margin: 30px 0 38px;
+            
+        }
+        &-img{
+            width: 380px;
+        }
+    }
+}
+@media only screen and (max-width: 425px) {
+    .service__intro{
+        padding-bottom: 100px;
+        &-text{
+            font-size: 22px;
+            width: 350px;
+            margin: 25px 0 30px;
+            
+        }
+        &-img{
+            width: 380px;
+        }
+    }
+}
+@media only screen and (max-width: 375px) {
+    .service__intro{
+        padding-bottom: 80px;
+        &-text{
+            font-size: 22px;
+            width: 310px;
+            margin: 20px 0 25px;
+            
+        }
+        &-img{
+            width: 340px;
+        }
+    }
+}
+@media only screen and (max-width: 320px) {
+    .service__intro{
+        padding-bottom: 50px;
+        &-text{
+            font-size: 20px;
+            width: 280px;
+            margin: 20px 0 25px;
+            
+        }
+        &-img{
+            width: 300px;
+        }
+    }
+}
