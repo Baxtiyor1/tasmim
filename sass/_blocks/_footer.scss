@@ -24,7 +24,8 @@
         }
     }
     &__title{
-        width: 492px;
+        // width: 492px;
+        // max-width: 100%;
         font-weight: bold;
         font-size: 40px;
         line-height: 109.52%;
@@ -74,5 +75,52 @@
         font-size: 16px;
         line-height: 109.52%;
         color: rgba(71, 71, 71, 0.8);
+    }
+}
+
+//******************
+// MEDIA 
+//******************
+@media screen and (max-width: 950px) {
+    .footer{
+        &__item{
+            &:first-child{
+                width: 800px;
+                max-width: 100%;
+            }
+        }
+        &__logo{
+            width: 115px;
+            height: 66px;
+        }
+        &__wrapper{
+            // flex-direction: column;
+            flex-wrap: wrap;
+        }
+    }
+}
+@media screen and (max-width: 560px) {
+    .footer{
+        &__title{
+            font-size: 20px;
+        }
+        &__contact{
+            &--title{
+                margin-bottom: 15px;
+                font-size: 16px;
+            }
+            &--link{
+                font-size: 16px;
+            }
+        }
+        &__link{
+            &--box li{
+                margin-bottom: 20px;
+            }
+            font-size: 16px;
+        }
+        &__bottom{
+            font-size: 12px;
+        }
     }
 }

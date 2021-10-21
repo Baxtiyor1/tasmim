@@ -4,7 +4,29 @@
     &__menu{
         padding: 56px 0 35px;
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-between;
         align-items: center;
+    }
+}
+
+//*******************
+// MEDIA
+//*******************
+@media screen and (max-width: 1200px) {
+    .partner{
+        &__menu{
+            justify-content: center;
+        }
+        &__link{
+            margin:0 15px;
+        }
+    }
+}
+@media screen and (max-width: 560px) {
+    .partner{
+        &__menu{
+            padding: 8vw 0 9.5vw;
+        }
     }
 }
