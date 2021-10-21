@@ -1,0 +1,217 @@
+.we{
+    z-index: 3;
+    background-color: #fff;
+    &__wrapper{
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    &__img{
+        max-width: 100%;
+        z-index: 5;
+    }
+    &__text{
+        &--we{
+            z-index: 6;
+            position: absolute;
+            top: 80px;
+            left: 120px;
+            color: black;
+            opacity: .7;
+        }
+        &--sew{
+            z-index: 6;
+            position: absolute;
+            bottom: 20px;
+            right: 50px;
+        }
+    }
+}
+@media only screen and (max-width: 1650px){
+    .we{
+        &__img{
+            width: 1210px;
+        }
+        &__text{
+            &--we{
+                top: 70px;
+                left: 100px;
+            }
+            &--sew{
+                bottom: 20px;
+                right: 40px;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 1550px){
+    .we{
+        &__img{
+            width: 1150px;
+        }
+        &__text{
+            &--we{
+                top: 70px;
+                left: 80px;
+            }
+            &--sew{
+                bottom: 20px;
+                right: 30px;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 1440px){
+    .we{
+        &__img{
+            width: 1000px;
+        }
+        &__text{
+            &--we{
+                width: 300px;
+                top: 30px;
+                left: 70px;
+            }
+            &--sew{
+                width: 300px;
+                bottom: 20px;
+                right: 30px;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 1250px){
+    .we{
+        &__img{
+            width: 900px;
+        }
+        &__text{
+            &--we{
+                width: 260px;
+                top: 30px;
+                left: 50px;
+            }
+            &--sew{
+                width: 260px;
+                bottom: 20px;
+                right: 20px;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 1024px){
+    .we{
+        &__img{
+            width: 800px;
+        }
+        &__text{
+            &--we{
+                width: 220px;
+                top: 30px;
+                left: 30px;
+            }
+            &--sew{
+                width: 220px;
+                bottom: 20px;
+                right: 10px;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 940px){
+    .we{
+        &__img{
+            width: 750px;
+        }
+        &__text{
+            &--we{
+                width: 210px;
+                top: 25px;
+                left: 30px;
+            }
+            &--sew{
+                width: 210px;
+                bottom: 20px;
+                right: 10px;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 880px){
+    .we{
+        &__img{
+            width: 650px;
+        }
+        &__text{
+            &--we{
+                width: 180px;
+                top: 25px;
+                left: 30px;
+            }
+            &--sew{
+                width: 200px;
+                bottom: 20px;
+                right: 10px;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 768px){
+    .we{
+        &__img{
+            width: 580px;
+        }
+        &__text{
+            &--we{
+                width: 150px;
+                top: 25px;
+                left: 20px;
+            }
+            &--sew{
+                width: 160px;
+                bottom: 20px;
+                right: 10px;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 600px){
+    .we{
+        &__img{
+            width: 550px;
+        }
+        &__text{
+            &--we{
+                width: 120px;
+                top: 0px;
+                left: 0px;
+            }
+            &--sew{
+                width: 130px;
+                bottom: 5px;
+                right: 0px;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 375px){
+    .we{
+        &__img{
+            width: 550px;
+        }
+        &__text{
+            &--we{
+                width: 100px;
+                top: 0px;
+                left: 0px;
+            }
+            &--sew{
+                width: 100px;
+                bottom: 5px;
+                right: 0px;
+            }
+        }
+    }
+}

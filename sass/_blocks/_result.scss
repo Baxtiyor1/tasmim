@@ -1,0 +1,18 @@
+.result{
+    background-color: #FFF;
+    &__wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    &__cards-menu{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    &__card{
+        
+    }
+}

@@ -1,0 +1,50 @@
+.command{
+    background-color: #fff;
+    padding: 69px 0;
+    &__wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    &__title{
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 100.52%;
+        text-transform: uppercase;
+        color: #000000;
+        margin-bottom: 33px;
+    }
+    &__text{
+        font-size: 20px;
+        line-height: 140%;
+        text-align: center;
+        color: #000000;
+    }
+}
+@media only screen and (max-width: 768px){
+    .command{
+        padding: 50px 0;
+        
+        &__title{
+            font-size: 22px;
+        }
+        &__text{
+            font-size: 18px;
+ 
+        }
+    }
+}
+@media only screen and (max-width: 425px){
+    .command{
+        padding: 40px 0;
+        
+        &__title{
+            font-size: 18px;
+        }
+        &__text{
+            font-size: 15px;
+ 
+        }
+    }
+}
