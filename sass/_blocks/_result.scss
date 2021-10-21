@@ -11,8 +11,40 @@
         align-items: center;
         justify-content: space-between;
         flex-direction: row;
+        flex-wrap: wrap;
+        margin-bottom: 42px;
     }
     &__card{
+        width: 414px;
+        height: 206px;
+        border: 2px solid rgba(193, 193, 193, 0.3);
+        box-sizing: border-box;
+        padding: 3px 0 37px 0;
+        margin-right: 20px;
+        &:last-child{
+            margin-right: 0;
+        }
+    }
+    &__number{
+        font-size: 100px;
+        line-height: 140%;
+        text-align: center;
+        color: #000000;
         
+    }
+    &__name{
+        font-size: 26px;
+        line-height: 100.52%;
+        text-align: center;
+        text-transform: uppercase;
+        color: #000000;
+    }
+    &__text{
+        width: 1078px;
+        font-size: 20px;
+        line-height: 140%;
+        text-align: center;
+        color: #000000;
+        margin-bottom: 79px;
     }
 }
