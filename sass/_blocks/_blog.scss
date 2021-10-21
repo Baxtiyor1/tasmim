@@ -102,6 +102,7 @@
 }
 @media screen and (max-width: 950px) {
     .blog{
+        padding-bottom: 180px;
         margin-top: 100px;
         &__menu{
             flex-direction: column;
@@ -277,6 +278,7 @@
             font-size: 30px;
         }
         &__box{
+            margin-top: 50px;
             flex-direction: column;
         }
         &__aside{
