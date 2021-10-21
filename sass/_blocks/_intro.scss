@@ -12,29 +12,36 @@
             background-repeat: no-repeat;
             background-position: center;
             left: 50%;
-            bottom: -17%;
+            bottom: -7%;
         }
     }
     &__item{
-        &:nth-child(2){
-            display: flex;
+        &:nth-child(1){
+            display: none;
         }
-        &:nth-child(4){
+        &:nth-child(3){
+            display: flex;
+            justify-content: space-between;
+        }
+        &:nth-child(5){
             margin-bottom: 198px;
         }
     }
     &__text{
+        font-weight: bold;
+        font-size: 9vw;
+        line-height: 100.52%;
+        text-transform: uppercase;
+        &--box{
+            display: flex;
+        }
         &--creativno{
-            margin-left: 5%; //87px
+            margin-left: 5vw; //87px
             background-image: url('/img/kreativno_bg.png');
             -webkit-background-clip: text;
             color: transparent;
             background-repeat: no-repeat;
             background-size: cover;
-            font-weight: bold;
-            font-size: 150px;
-            line-height: 100.52%;
-            text-transform: uppercase;
         }
         &--marketing{
             background-image: url('/img/marketing_bg.png');
@@ -43,26 +50,20 @@
             background-repeat: no-repeat;
             background-size: cover;
             font-weight: bold;
-            font-size: 150px;
-            line-height: 100.52%;
-            text-transform: uppercase;
         }
         &--agentsva{
-            margin-left: 36%;  // 616px
+            margin-left: 33vw;  // 616px
             background-image: url('/img/agenstvo_bg.png');
             -webkit-background-clip: text;
             color: transparent;
             background-repeat: no-repeat;
             background-size: cover;
             font-weight: bold;
-            font-size: 150px;
-            line-height: 100.52%;
-            text-transform: uppercase;
         }
         &--smart{
-            margin-left: 10%;  // 177px
+            margin-left: 15vw;  // 177px
             padding-top: 13px;
-            width: 167px;
+            width: 9vw;
             font-weight: bold;
             font-size: 20px;
             line-height: 100.52%;
@@ -70,10 +71,10 @@
             color: rgba(0, 0, 0, 0.6);
         }
         &--discription{
-            width: 545px;
-            margin-left: 58%; // 1125px
+            width: 33vw;
+            margin-left: 58vw; // 1125px
             font-weight: bold;
-            font-size: 20px;
+            font-size: 1.1vw;
             line-height: 100.52%;
             text-align: center;
             color: rgba(0, 0, 0, 0.6);
@@ -99,11 +100,10 @@
     &__message--icon{
         position: fixed;
         z-index: 9;
-        top: 730px;
-        right: 100px;
+        top: 42vw;
+        right: 6vw;
     }
     &__icon--box{
-        margin-left: 26%; //453px
         max-height: 129px;
         display: flex;
         flex-direction: column;
@@ -114,6 +114,92 @@
             &:hover{
                 opacity: 1;
             }
+        }
+    }
+}
+
+//*******************
+// MEDIA
+//*******************
+@media screen and (min-width: 1739px) {
+    .intro{
+        &__text{
+            font-size: 150px;
+        }
+    }
+}
+@media screen and (max-width: 1460px) {
+    .intro{
+        &__text{
+            &--smart{
+                width: 14vw;
+            }
+        }
+        &__icon--box{
+            & img{
+                width: 26px;
+                height: 26px;
+            }
+        }
+    }
+}
+@media screen and (max-width: 950px) {
+    .intro{
+        padding: 12vw 0;
+        &__container{
+            &::after{
+                display: none;
+            }
+        }
+        &__icon--box{
+            display: none;
+        }
+        &__menu{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        &__item{
+            margin-bottom: 5.2vw;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            &:nth-child(1){
+                display: flex;
+            }
+            &:nth-child(5){
+                margin-bottom: 20vw;
+            }
+        }
+        &__text{
+            margin: 0;
+            font-size: 12vw;
+            &--smart{
+                display: none;
+            }
+            &--discription{
+                width: 100%;
+                margin: 0;
+                font-size: 3vw;
+            }
+        }
+        &__mobile{
+            &--dot{
+                font-weight: bold;
+                font-size: 3.5vw;
+                line-height: 100.52%;
+                color: red;
+            }
+            &--text{
+                font-weight: bold;
+                font-size: 3.5vw;
+                line-height: 100.52%;
+            }
+        }
+        &__message--icon{
+            width: 30px;
+            height: 30px;
         }
     }
 }
