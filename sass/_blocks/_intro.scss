@@ -99,7 +99,7 @@
     }
     &__message--icon{
         position: fixed;
-        z-index: 9;
+        z-index: 8;
         top: 42vw;
         right: 6vw;
     }
@@ -198,6 +198,7 @@
             }
         }
         &__message--icon{
+            top: 100vw;
             width: 30px;
             height: 30px;
         }

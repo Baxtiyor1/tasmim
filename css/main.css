@@ -214,7 +214,7 @@ body {
 }
 .intro__message--icon {
   position: fixed;
-  z-index: 9;
+  z-index: 8;
   top: 42vw;
   right: 6vw;
 }
@@ -298,6 +298,7 @@ body {
     line-height: 100.52%;
   }
   .intro__message--icon {
+    top: 100vw;
     width: 30px;
     height: 30px;
   }
@@ -593,6 +594,9 @@ body {
   }
 }
 @media screen and (max-width: 700px) {
+  .about {
+    margin-bottom: 100px;
+  }
   .about__box {
     margin-top: 77px;
   }
@@ -854,6 +858,7 @@ body {
 }
 @media screen and (max-width: 950px) {
   .blog {
+    padding-bottom: 180px;
     margin-top: 100px;
   }
   .blog__menu {
@@ -1022,6 +1027,7 @@ body {
     font-size: 30px;
   }
   .contact__box {
+    margin-top: 50px;
     flex-direction: column;
   }
   .contact__aside {
@@ -1157,8 +1163,11 @@ body {
   left: 0;
   right: 0;
   z-index: 9;
+  bottom: 0;
+  z-index: 3;
   transform: translateX(-100%);
   transition: 0.5s;
+  overflow: auto;
 }
 .modal__active {
   transform: translateX(0);
