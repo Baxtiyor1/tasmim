@@ -146,7 +146,6 @@
         }
         &__subtext{
             width: 470px;
-            margin: 5px 0 70px 0;
         }
     }
 }
@@ -200,7 +199,14 @@
         }
         &__subtext{
             width: 400px;
-            margin: 5px 0 70px 0;
+            &--left{
+                margin: 5px 0 70px 0;
+                text-align: left;
+            }
+            &--right{
+                text-align: right;
+                margin: 5px 0 70px auto;
+            }
         }
     }
 }
@@ -254,7 +260,14 @@
         }
         &__subtext{
             width: 340px;
-            margin: 5px 0 70px 0;
+            &--left{
+                margin: 5px 0 70px 0;
+                text-align: left;
+            }
+            &--right{
+                text-align: right;
+                margin: 5px 0 70px auto;
+            }
         }
     }
 }
@@ -308,7 +321,14 @@
         }
         &__subtext{
             width: 290px;
-            margin: 5px 0 65px 0;
+            &--left{
+                margin: 5px 0 65px 0;
+                text-align: left;
+            }
+            &--right{
+                text-align: right;
+                margin: 5px 0 65px auto;
+            }
         }
     }
 }
@@ -365,7 +385,14 @@
         }
         &__subtext{
             width: 246px;
-            margin: 5px 0 55px 0;
+            &--left{
+                margin: 5px 0 55px 0;
+                text-align: left;
+            }
+            &--right{
+                text-align: right;
+                margin: 5px 0 55px auto;
+            }
         }
     }
 }
@@ -409,7 +436,7 @@
         &__text{
             font-size: 18px;
             text-align: center;
-width: 680px;
+            width: 680px;
             &-wrapper{
                 display: flex;
                 flex-direction: column;
@@ -422,7 +449,7 @@ width: 680px;
             font-size: 18px;
             text-align: center;
             width: 670px;
-            margin: 5px 0 55px 0;
+            margin: 5px auto 55px ;
         }
     }
 }
@@ -467,7 +494,7 @@ width: 680px;
             font-size: 16px;
             text-align: center;
             width: 500px;
-            margin: 5px 0 45px 0;
+            margin: 5px auto 45px ;
         }
     }
 }
@@ -508,7 +535,7 @@ width: 680px;
             font-size: 15px;
             text-align: center;
             width: 420px;
-            margin: 5px 0 35px 0;
+            margin: 5px auto 35px ;
         }
     }
 }
@@ -549,7 +576,7 @@ width: 680px;
             font-size: 13px;
             text-align: center;
             width: 360px;
-            margin: 5px 0 25px 0;
+            margin: 5px auto 25px ;
         }
     }
 }
@@ -590,7 +617,7 @@ width: 680px;
             font-size: 14px;
             text-align: center;
             width: 310px;
-            margin: 5px 0 25px 0;
+            margin: 5px auto 25px ;
         }
     }
 }
