@@ -1,5 +1,5 @@
 .we{
-    z-index: 3;
+    z-index: 2;
     background-color: #fff;
     &__wrapper{
         position: relative;
@@ -10,11 +10,11 @@
     }
     &__img{
         max-width: 100%;
-        z-index: 5;
+        z-index: 3;
     }
     &__text{
         &--we{
-            z-index: 6;
+            z-index: 4;
             position: absolute;
             top: 80px;
             left: 120px;
@@ -22,7 +22,7 @@
             opacity: .7;
         }
         &--sew{
-            z-index: 6;
+            z-index: 4;
             position: absolute;
             bottom: 20px;
             right: 50px;

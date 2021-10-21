@@ -1173,7 +1173,6 @@ body {
   right: 0;
   z-index: 9;
   bottom: 0;
-  z-index: 3;
   transform: translateX(-100%);
   transition: 0.5s;
   overflow: auto;
@@ -2256,7 +2255,7 @@ body {
   }
 }
 .we {
-  z-index: 3;
+  z-index: 2;
   background-color: #fff;
 }
 .we__wrapper {
@@ -2268,10 +2267,10 @@ body {
 }
 .we__img {
   max-width: 100%;
-  z-index: 5;
+  z-index: 3;
 }
 .we__text--we {
-  z-index: 6;
+  z-index: 4;
   position: absolute;
   top: 80px;
   left: 120px;
@@ -2279,7 +2278,7 @@ body {
   opacity: 0.7;
 }
 .we__text--sew {
-  z-index: 6;
+  z-index: 4;
   position: absolute;
   bottom: 20px;
   right: 50px;
