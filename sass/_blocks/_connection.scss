@@ -1,0 +1,269 @@
+.connection{
+    margin: 0 auto;
+    padding: 59px 0 70px 0;
+    background: #161616;
+    &__title{
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 130%;
+        color: #FFFFFF;
+        text-align: center;
+    }
+    &__text{
+        font-size: 26px;
+        line-height: 140%;
+        text-align: center;
+        color: #FFFFFF;
+        margin-top: 20px;
+    }
+    &__form{
+        margin-top: 90px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    &__input{
+        padding: 14px 0 10px 0;
+        width: 645px;
+        background-color: #161616;
+        border: none;
+        outline: none;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 156.02%;
+        color: rgba(255, 255, 255, 0.3);
+    }
+    &__textarea{
+        margin-bottom: 10px;
+        width: 663px;
+        height: 245px;
+        background-color: #161616;
+        border: none;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 156.02%;
+        color: rgba(255, 255, 255, 0.3);
+        resize: none;
+        outline: none;
+        padding-left: 10px;
+    }
+    &__line{
+        margin-bottom: 40px;
+        width: 645px;
+        &--area{
+            width: 663px;
+        }
+    }
+    &__btn{
+        margin-top: 78px;
+        width: 160px;
+        padding: 13px 29px;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 100.52%;
+        color: #000000;
+        background-color: #fff;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .connection{
+        padding: 39px 0 50px 0;
+        &__title{
+            font-weight: 500;
+            font-size: 32px;
+            line-height: 100%;
+        }
+        &__text{
+            font-size: 22px;
+            line-height: 100%;
+            margin-top: 20px;
+        }
+        &__form{
+            margin-top: 60px;
+        }
+        &__input{
+            padding: 10px 0 8px 0;
+            width: 480px;
+            font-size: 20px;
+ 
+        }
+        &__textarea{
+            width: 497px;
+            height: 185px;
+            font-weight: 700;
+            padding-left: 7px;
+        }
+        &__line{
+            margin-bottom: 32px;
+            width: 480px;
+            &--area{
+                width: 497px;
+            }
+        }
+        &__btn{
+            margin-top: 58px;
+            width: 160px;
+            padding: 13px 29px;
+
+        }
+    }
+  }
+@media only screen and (max-width: 600px) {
+    .connection{
+        padding: 25px 0 30px 0;
+        &__title{
+            font-weight: 500;
+            font-size: 28px;
+            line-height: 80%;
+        }
+        &__text{
+            font-size: 20px;
+            line-height: 100%;
+            margin-top: 15px;
+        }
+        &__form{
+            margin-top: 70px;
+        }
+        &__input{
+            padding: 8px 0 5px 0;
+            width: 420px;
+            font-size: 20px;
+ 
+        }
+        &__textarea{
+            width: 450px;
+            height: 150px;
+            font-weight: 700;
+            padding-left: 7px;
+        }
+        &__line{
+            margin-bottom: 32px;
+            width: 420px;
+            &--area{
+                width: 450px;
+            }
+        }
+        &__btn{
+            margin-top: 58px;
+            width: 150px;
+            padding: 10px 20px;
+            line-height: 100.52%;
+ 
+        }
+    }
+  }
+@media only screen and (max-width: 425px) {
+    .connection{
+        padding: 15px 0 20px 0;
+        &__title{
+            font-weight: 500;
+            font-size: 28px;
+            line-height: 100%;
+        }
+        &__text{
+            font-size: 16px;
+            line-height: 100%;
+            margin-top: 12px;
+        }
+        &__form{
+            margin-top: 60px;
+        }
+        &__input{
+            padding: 8px 0 5px 0;
+            width: 320px;
+            font-size: 20px;
+ 
+        }
+        &__textarea{
+            width: 340px;
+            height: 150px;
+            font-weight: 700;
+            padding-left: 7px;
+        }
+        &__line{
+            margin-bottom: 28px;
+            width: 320px;
+            &--area{
+                width: 340px;
+            }
+        }
+        &__btn{
+            margin-top: 45px;
+            width: 120px;
+            padding: 10px 20px;
+        }
+    }
+  }
+@media only screen and (max-width: 375px) {
+    .connection{
+        padding: 15px 0 20px 0;
+        &__title{
+            font-weight: 500;
+            font-size: 22px;
+            line-height: 100%;
+        }
+        &__text{
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 100%;
+            margin-top: 12px;
+        }
+        &__form{
+            margin-top: 50px;
+        }
+        &__input{
+            padding: 8px 0 5px 0;
+            width: 320px;
+            font-size: 20px;
+ 
+        }
+        &__textarea{
+            width: 340px;
+            height: 150px;
+            font-weight: 700;
+            padding-left: 12px;
+        }
+        &__line{
+            margin-bottom: 28px;
+            width: 320px;
+            &--area{
+                width: 340px;
+            }
+        }
+        &__btn{
+            margin-top: 45px;
+            width: 120px;
+            padding: 10px 20px;
+        }
+    }
+  }
+@media only screen and (max-width: 320px) {
+    .connection{
+        padding: 15px 0 20px 0;
+        &__form{
+            margin-top: 40px;
+        }
+        &__input{
+            padding: 8px 0 5px 0;
+            width: 280px;
+            font-size: 20px;
+ 
+        }
+        &__textarea{
+            width: 300px;
+            height: 150px;
+            font-weight: 700;
+            padding-left: 12px;
+        }
+        &__line{
+            margin-bottom: 28px;
+            width: 280px;
+            &--area{
+                width: 300px;
+            }
+        }
+    }
+  }
