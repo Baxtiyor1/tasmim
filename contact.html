@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    
+    <header class="header">
+        <div class="container">
+            <nav class="header__nav">
+                <ul class="header__menu">
+                    <li id="modal_open" class="header__item">
+                        <div class="header__box">
+                            <span class="header__box--intro"></span>
+                        </div>
+                        <p class="header__text">menu</p>
+                    </li>
+                    <li class="header__item">
+                        <a href="./index.html"><img class="header__logo" src="./img/Tasmim_logo.svg" alt="logo" width="189" height="107"></a>
+                    </li>
+                    <li class="header__item">
+                        <a class="header__phone--icon" href="#"><img src="./img/phone_icon.svg" alt="phone" width="28" height="28"></a>
+                        <a class="header__phone--link" href="tel: +998 94 777-88-22">Позвонить</a>
+                    </li>
+                </ul>
+                <div class="modal">
+                    <div class="modal__aside">
+                        <button class="modal__btn" type="button"><img src="./img/modalCloseBtn.svg" alt="close"></button>
+                        <ul class="modal__list">
+                            <li class="modal__item"><a class="modal__link" href="./services.html">Услуги и прайс</a></li>
+                            <li class="modal__item"><a class="modal__link" href="./about.html">О нас</a></li>
+                            <li class="modal__item"><a class="modal__link" href="#">Блог</a></li>
+                            <li class="modal__item"><a class="modal__link" href="#">Наша команда</a></li>
+                            <li class="modal__item"><a class="modal__link" href="#">Портфолио</a></li>
+                            <li class="modal__item"><a class="modal__link" href="./contact.html">Контакты</a></li>
+                        </ul>
+                    </div>
+                    <div class="modal__bside">
+                        <p class="modal__footer">
+                            Email: info@tasmim.uz <br> <br>
+                            Адрес: г.Ташкент, .... <br> <br>
+                            Тел: +998 (94) 522 22 22
+                        </p>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    
+    <main>
+        <section class="address">
+            <div class="container">
+                <h1 class="address__head">Контакты</h1>
+                <div class="address__wrapper">
+                    <ul class="address__box">
+                        <li class="address__item">
+                            <h3 class="address__title">Адрес</h3>
+                            <p class="address__link">г.Ташкент, ....</p>
+                        </li>
+                        <li class="address__item">
+                            <h3 class="address__title">Номер телефона</h3>
+                            <a class="address__link" href="tel: +998 94 777-88-22">+998 94 777-88-22</a> <br>
+                            <a class="address__link" href="tel: +998 94 777-88-22">+998 94 777-88-22</a>
+                        </li>
+                        <li class="address__item">
+                            <h3 class="address__title">Свяжитесь с нами</h3>
+                            <a class="address__link" href="#">info@tasmim.uz</a>
+                        </li>
+                        <li class="address__item">
+                            <h3 class="address__title">Мы в соц.сетях</h3>
+                            <span class="address__icon--box">
+                                <img src="./img/insta_icon.svg" alt="insta">
+                                <img src="./img/telegram_icon.svg" alt="telegram">
+                                <img src="./img/twetter_icon.svg" alt="twetter">
+                            </span>
+                        </li>
+                    </ul>
+                    <div class="address__map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2808.0034373966428!2d69.24569449381082!3d41.32526857995963!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8bfaedfe3e1d%3A0x23ac4a5a705b84ab!2sNajot%20ta&#39;lim!5e0!3m2!1sru!2s!4v1634839156657!5m2!1sru!2s" width="993" height="628" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="connection__section">
+            <div class="container">
+                <div class="connection">
+                    <h3 class="connection__title">У вас есть вопросы?</h3>
+                    <p class="connection__text">Напишите нам для обсуждения любых вопросов <br> Оставьте заявку и мы с вами свяжемся</p>
+                    <form class="connection__form">
+                        <input class="connection__input" type="text" placeholder="Ваше имя">
+                        <img class="connection__line" src="./img/input_underline.svg" alt="img">
+                        <input class="connection__input" type="text" placeholder="Ваше фамилия">
+                        <img class="connection__line" src="./img/input_underline.svg" alt="img">
+                        <input class="connection__input" type="tel" placeholder="Номер телефона">
+                        <img class="connection__line" src="./img/input_underline.svg" alt="img">
+                        <textarea class="connection__textarea" placeholder="Сообщение"></textarea>
+                        <img class="connection__line connection__line--area"  src="./img/textarea_underline.svg" alt="img">
+                        <button class="connection__btn" type="submit">Отправить</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer class="footer">
+        <div class="container">
+            <ul class="footer__wrapper">
+                <li class="footer__item">
+                    <img class="footer__logo" src="./img/Tasmim_logo.svg" alt="logo">
+                    <div class="footer__icon--box">
+                        <a href="#"><img class="footer__icon" src="./img/insta_icon.svg" alt="insta"></a>
+                        <a href="#"><img class="footer__icon" src="./img/telegram_icon.svg" alt="telegram"></a>
+                        <a href="#"><img class="footer__icon" src="./img/twetter_icon.svg" alt="twetter"></a>
+                    </div>
+                    <h2 class="footer__title">TASMIM — маркетинговое <br> агентство полного цикла.</h2>
+                </li>
+                <li class="footer__item">
+                    <ul class="footer__contact">
+                        <li class="footer__contact--item">
+                            <h3 class="footer__contact--title">Офис в Ташкенте</h3>
+                            <p class="footer__contact--link">г.Ташкент, ....</p>
+                        </li>
+                        <li class="footer__contact--item">
+                            <h3 class="footer__contact--title">Телефон</h3>
+                            <p class="footer__contact--box">
+                                <a class="footer__contact--link" href="tel: +998 94 777-88-22">+998 94 777-88-22</a> 
+                                <br> 
+                                <a class="footer__contact--link" href="tel: +998 94 777-88-22">+998 94 777-88-22</a>
+                            </p>
+                        </li>
+                        <li class="footer__contact--item">
+                            <h3 class="footer__contact--title">Email</h3>
+                            <a class="footer__contact--link" href="#">info@tasmim.uz</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="footer__item">
+                    <ul class="footer__link--box">
+                        <li><a class="footer__link" href="./services.html">Услуги</a></li>
+                        <li><a class="footer__link" href="./about.html">О нас</a></li>
+                        <li><a class="footer__link" href="#">Проекты</a></li>
+                        <li><a class="footer__link" href="./contact.html">Контакты</a></li>
+                        <li><a class="footer__link" href="#team">Нашы учредители</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <hr>
+        <div class="container">
+            <div class="footer__bottom">
+                <p>© PO "TASMIM". Since 2021</p>
+                <p>Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="./js/script.js"></script>
+</body>
+</html>

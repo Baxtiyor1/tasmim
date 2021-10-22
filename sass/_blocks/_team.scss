@@ -1,17 +1,22 @@
 .team{
     position: relative;
     margin-bottom: 163px;
+    &__slider{
+        width: 100%;
+        position: relative;
+    }
     &__box{
         max-width: 1723px;
         margin: 0 auto;
         margin-top: 45px;
         display: flex;
         justify-content: space-between;
-        flex-wrap: wrap;
+        // flex-wrap: wrap;
     }
     &__item{
-        width: 392px;
-        margin-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     &__imgbox{
         width: 363px;
@@ -69,7 +74,6 @@
     }
 }
 
-
 //********************
 // MEDIA
 //********************
@@ -102,14 +106,6 @@
             margin: 0 auto;
             font-size: 16px;
             text-align: center;
-        }
-    }
-}
-@media screen and (max-width: 560px) {
-    .team{
-        &__box{
-            flex-direction: column;
-            align-items: center;
         }
     }
 }

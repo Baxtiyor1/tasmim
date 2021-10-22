@@ -5,6 +5,7 @@
             height: 50px;
             display: flex;
             align-items: center;
+            transition: 0.5s;
         }
         &--icon{
             margin-right: 23px;
@@ -51,6 +52,9 @@
                 transform: scale(1);
             }
         }
+        &__item{
+            transition: 0.5s;
+        }
     }
     &__box{
         margin-top: 142px;
@@ -60,6 +64,7 @@
         align-items: center;
         &--item{
             margin-bottom: 72px;
+            transition: 0.5s;
         }
         &--fieldset{
             padding: 40px 0 90px 62px;
