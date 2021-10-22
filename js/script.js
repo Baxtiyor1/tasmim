@@ -11,6 +11,7 @@ elModalCloseBtn.addEventListener('click', ()=>{
 })
 
 // ------------ team modal ---------
+<<<<<<< HEAD
 try{
     const elTeamOpenBtn = document.querySelectorAll('.team__open');
 const elTeamCloseBtn = document.querySelector('.team__close');
@@ -26,6 +27,20 @@ elTeamCloseBtn.addEventListener('click', ()=>{
     elTeamModal.classList.remove('team__modal__active')
 });
 }catch{console.log('modal error')}
+=======
+
+
+// const elTeamOpenBtn = document.querySelectorAll('.team__open');
+// const elTeamCloseBtn = document.querySelector('.team__close');
+// const elTeamModal = document.querySelector('.team__modal');
+
+// elTeamOpenBtn.addEventListener('click', ()=>{
+//     elTeamModal.classList.add('team__modal__active')
+// });
+// elTeamCloseBtn.addEventListener('click', ()=>{
+//     elTeamModal.classList.remove('team__modal__active')
+// });
+>>>>>>> f2e1c7e277859584f75645e5d4834fcfdee2f956
 // console.log(elTeamOpenBtn)
 
 
