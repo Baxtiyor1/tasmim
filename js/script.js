@@ -11,16 +11,18 @@ elModalCloseBtn.addEventListener('click', ()=>{
 })
 
 // ------------ team modal ---------
-const elTeamOpenBtn = document.querySelectorAll('.team__open');
-const elTeamCloseBtn = document.querySelector('.team__close');
-const elTeamModal = document.querySelector('.team__modal');
 
-elTeamOpenBtn.addEventListener('click', ()=>{
-    elTeamModal.classList.add('team__modal__active')
-});
-elTeamCloseBtn.addEventListener('click', ()=>{
-    elTeamModal.classList.remove('team__modal__active')
-});
+
+// const elTeamOpenBtn = document.querySelectorAll('.team__open');
+// const elTeamCloseBtn = document.querySelector('.team__close');
+// const elTeamModal = document.querySelector('.team__modal');
+
+// elTeamOpenBtn.addEventListener('click', ()=>{
+//     elTeamModal.classList.add('team__modal__active')
+// });
+// elTeamCloseBtn.addEventListener('click', ()=>{
+//     elTeamModal.classList.remove('team__modal__active')
+// });
 // console.log(elTeamOpenBtn)
 
 
