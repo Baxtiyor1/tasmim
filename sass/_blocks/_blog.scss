@@ -1,6 +1,7 @@
 .blog{
     padding-bottom: 339px;
-    margin-top: 177px;
+    padding-top: 177px;
+    background-color: #161616;
     &__menu{
         margin-top: 41px;
         display: flex;
@@ -103,7 +104,7 @@
 @media screen and (max-width: 950px) {
     .blog{
         padding-bottom: 180px;
-        margin-top: 100px;
+        padding-top: 100px;
         &__menu{
             flex-direction: column;
             align-items: center;
@@ -147,7 +148,7 @@
 }
 @media screen and (max-width: 560px) {
     .blog{
-        margin-top: 59px;
+        padding-top: 59px;
         &__menu{
             margin-top: 35px;
         }

@@ -1,4 +1,4 @@
-// ********* modal ***********
+// ********* modal header ***********
 const elModalOpenBtn = document.querySelector('#modal_open');
 const elModalCloseBtn = document.querySelector('.modal__btn');
 const elModal = document.querySelector('.modal')
@@ -9,6 +9,8 @@ elModalOpenBtn.addEventListener('click', ()=>{
 elModalCloseBtn.addEventListener('click', ()=>{
     elModal.classList.remove('modal__active')
 })
+
+// ------------ team modal ---------
 const elTeamOpenBtn = document.querySelectorAll('.team__open');
 const elTeamCloseBtn = document.querySelector('.team__close');
 const elTeamModal = document.querySelector('.team__modal');
@@ -20,6 +22,7 @@ elTeamCloseBtn.addEventListener('click', ()=>{
     elTeamModal.classList.remove('team__modal__active')
 });
 // console.log(elTeamOpenBtn)
+
 
 // ********** price section price titles *************
 const priceWebBtn = document.querySelector('#web');
@@ -47,8 +50,8 @@ priceExtraBtn.addEventListener('click', ()=>{
         priceProdBtn.classList.remove('price__title--btn--active')
     }
 })
-<<<<<<< HEAD
-=======
+
+
 
 //******* Slider *********/
 
@@ -82,4 +85,4 @@ let mySlider = new Swiper(".team__slider", {
         }
     }
 });
->>>>>>> 15d7f0859021dc0f79dc5f82abf4f36b9c05422e
+

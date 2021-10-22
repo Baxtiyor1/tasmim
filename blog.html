@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="./services.html">
+    <link rel="stylesheet" href="./css/main.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+</head>
+<body>
+    <div style="display: none;" class="icon">
+        <svg width="0" height="0" class="hidden">
+            <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60" id="message_icon">
+                <circle cx="30" cy="30" r="30"  ></circle>
+                <path d="M43.5 44.9836C43.3659 45.0055 43.2291 45.0055 43.095 44.9836L34.98 42.7352C33.3713 43.2516 31.6896 43.5047 30 43.4847C26.1231 43.5773 22.3675 42.1306 19.5559 39.4615C16.7443 36.7923 15.1061 33.1183 15 29.2444C15.1061 25.3705 16.7443 21.6965 19.5559 19.0274C22.3675 16.3582 26.1231 14.9115 30 15.0042C33.8769 14.9115 37.6325 16.3582 40.4441 19.0274C43.2557 21.6965 44.8939 25.3705 45 29.2444C44.9971 32.0144 44.1494 34.7178 42.57 36.9941L44.895 42.99C44.9861 43.2425 45.0078 43.5148 44.9576 43.7784C44.9075 44.0421 44.7874 44.2875 44.61 44.489C44.4698 44.6443 44.2985 44.7685 44.1074 44.8537C43.9162 44.9389 43.7093 44.9831 43.5 44.9836ZM34.92 39.6023C35.0546 39.5876 35.1904 39.5876 35.325 39.6023L41.01 41.1912L39.51 37.2639C39.4088 37.0179 39.3749 36.7494 39.4118 36.486C39.4487 36.2226 39.5551 35.9737 39.72 35.765C41.1812 33.9035 41.9831 31.6102 42 29.2444C41.8943 26.1655 40.5722 23.2539 38.3232 21.1469C36.0742 19.0399 33.0814 17.9091 30 18.0021C26.9186 17.9091 23.9258 19.0399 21.6768 21.1469C19.4278 23.2539 18.1057 26.1655 18 29.2444C18.1057 32.3233 19.4278 35.2349 21.6768 37.3419C23.9258 39.449 26.9186 40.5797 30 40.4867C31.5054 40.4845 32.9985 40.2155 34.41 39.6923C34.5735 39.633 34.7461 39.6025 34.92 39.6023Z" fill="white"></path>
+            </symbol>
+        </svg>
+    </div>
+    <header class="header">
+        <div class="container">
+            <nav class="header__nav">
+                <ul class="header__menu">
+                    <li id="modal_open" class="header__item">
+                        <div class="header__box">
+                            <span class="header__box--intro"></span>
+                        </div>
+                        <p class="header__text">menu</p>
+                    </li>
+                    <li class="header__item">
+                        <a href="./index.html"><img class="header__logo" src="./img/Tasmim_logo.svg" alt="logo" width="189" height="107"></a>
+                    </li>
+                    <li class="header__item">
+                        <a class="header__phone--icon" href="#"><img src="./img/phone_icon.svg" alt="phone" width="28" height="28"></a>
+                        <a class="header__phone--link" href="tel: +998 94 777-88-22">Позвонить</a>
+                    </li>
+                </ul>
+                <div class="modal">
+                    <div class="modal__aside">
+                        <button class="modal__btn" type="button"><img src="./img/modalCloseBtn.svg" alt="close"></button>
+                        <ul class="modal__list">
+                            <li class="modal__item"><a class="modal__link" href="./services.html">Услуги и прайс</a></li>
+                            <li class="modal__item"><a class="modal__link" href="./about.html">О нас</a></li>
+                            <li class="modal__item"><a class="modal__link" href="#">Блог</a></li>
+                            <li class="modal__item"><a class="modal__link" href="#">Наша команда</a></li>
+                            <li class="modal__item"><a class="modal__link" href="#">Портфолио</a></li>
+                            <li class="modal__item"><a class="modal__link" href="./contact.html">Контакты</a></li>
+                        </ul>
+                    </div>
+                    <div class="modal__bside">
+                        <p class="modal__footer">
+                            Email: info@tasmim.uz <br> <br>
+                            Адрес: г.Ташкент, .... <br> <br>
+                            Тел: +998 (94) 522 22 22
+                        </p>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section  class="page">
+            <div class="container">
+                <h2 class="page__title">БЛОГ</h2>
+                <ul class="page__menu">
+                    <li class="page__item">
+                        <img class="page__item--img" src="./img/SEO.png" alt="">
+                        <div class="page__item--right">
+                            <p class="page__item--name">SMM - продвижение в соцсетях | 20.09.21</p>
+                            <h4 class="page__item--title">Что такое таргетинг в Фейсбуке и каковы его возможности для продвижения бизнеса в соцсетях</h4>
+                            <p class="page__item--text">Социальные сети на сегодняшний день представляют одну из самых популярных платформ. Вот почему продвижение бизнеса там — задача достаточно актуальная. И в этой статье мы рассмотрим таргетинг в Фейсбуке. Что это такое? В нескольких словах — это рекламная кампания, задача которой — определить целевую аудиторию и методы воздействия на нее.</p>
+                            <a class="page__item--link" href="#"><p class="page__item--link-text">Читать далее →</p></a>
+                        </div>
+                    </li>
+                    <li class="page__item">
+                        <img class="page__item--img" src="./img/SMM.png" alt="">
+                        <div class="page__item--right">
+                            <p class="page__item--name">SMM - продвижение в соцсетях | 20.09.21</p>
+                            <h4 class="page__item--title">Что такое таргетинг в Фейсбуке и каковы его возможности для продвижения бизнеса в соцсетях</h4>
+                            <p class="page__item--text">Социальные сети на сегодняшний день представляют одну из самых популярных платформ. Вот почему продвижение бизнеса там — задача достаточно актуальная. И в этой статье мы рассмотрим таргетинг в Фейсбуке. Что это такое? В нескольких словах — это рекламная кампания, задача которой — определить целевую аудиторию и методы воздействия на нее.</p>
+                            <a class="page__item--link" href="#"><p class="page__item--link-text">Читать далее →</p></a>
+                        </div>
+                    </li>
+                    <li class="page__item">
+                        <img class="page__item--img" src="./img/internet-marketing.png" alt="">
+                        <div class="page__item--right">
+                            <p class="page__item--name">Интернет-маркетинг | 30.09.21</p>
+                            <h4 class="page__item--title">Кто такой копирайтер и что такое копирайтинг в 2021 году</h4>
+                            <p class="page__item--text">В наше время профессия копирайтера с каждым годом становится все более востребованной. Потому несмотря на все перипетии, текст остается основным элементом передачи информации. Роль копирайтера — ее поиск, структурирование и написание текста. А жизнь копирайтера — постоянная погоня за информацией. Как стать хорошим копирайтером и что для этого надо? Рассмотрим подробно!</p>
+                            <a class="page__item--link" href="#"><p class="page__item--link-text">Читать далее →</p></a>
+                        </div>
+                    </li>
+                    <li class="page__item">
+                        <img class="page__item--img" src="./img/SEO.png" alt="">
+                        <div class="page__item--right">
+                            <p class="page__item--name">SMM - продвижение в соцсетях | 20.09.21</p>
+                            <h4 class="page__item--title">Что такое таргетинг в Фейсбуке и каковы его возможности для продвижения бизнеса в соцсетях</h4>
+                            <p class="page__item--text">Социальные сети на сегодняшний день представляют одну из самых популярных платформ. Вот почему продвижение бизнеса там — задача достаточно актуальная. И в этой статье мы рассмотрим таргетинг в Фейсбуке. Что это такое? В нескольких словах — это рекламная кампания, задача которой — определить целевую аудиторию и методы воздействия на нее.</p>
+                            <a class="page__item--link" href="#"><p class="page__item--link-text">Читать далее →</p></a>
+                        </div>
+                    </li>
+                    <li class="page__item">
+                        <img class="page__item--img" src="./img/SMM.png" alt="">
+                        <div class="page__item--right">
+                            <p class="page__item--name">SMM - продвижение в соцсетях | 20.09.21</p>
+                            <h4 class="page__item--title">Что такое таргетинг в Фейсбуке и каковы его возможности для продвижения бизнеса в соцсетях</h4>
+                            <p class="page__item--text">Социальные сети на сегодняшний день представляют одну из самых популярных платформ. Вот почему продвижение бизнеса там — задача достаточно актуальная. И в этой статье мы рассмотрим таргетинг в Фейсбуке. Что это такое? В нескольких словах — это рекламная кампания, задача которой — определить целевую аудиторию и методы воздействия на нее.</p>
+                            <a class="page__item--link" href="#"><p class="page__item--link-text">Читать далее →</p></a>
+                        </div>
+                    </li>
+                    <li class="page__item">
+                        <img class="page__item--img" src="./img/internet-marketing.png" alt="">
+                        <div class="page__item--right">
+                            <p class="page__item--name">Интернет-маркетинг | 30.09.21</p>
+                            <h4 class="page__item--title">Кто такой копирайтер и что такое копирайтинг в 2021 году</h4>
+                            <p class="page__item--text">В наше время профессия копирайтера с каждым годом становится все более востребованной. Потому несмотря на все перипетии, текст остается основным элементом передачи информации. Роль копирайтера — ее поиск, структурирование и написание текста. А жизнь копирайтера — постоянная погоня за информацией. Как стать хорошим копирайтером и что для этого надо? Рассмотрим подробно!</p>
+                            <a class="page__item--link" href="#"><p class="page__item--link-text">Читать далее →</p></a>
+                        </div>
+                    </li>
+                </ul>
+                <div  class="blog__numbers page__numbers">
+                    <ul class="blog__numbers--box page__numbers--box">
+                        <li class="blog__numbers--num page__numbers--num">1</li>
+                        <li class="blog__numbers--num page__numbers--num">2</li>
+                        <li class="blog__numbers--num page__numbers--num">3</li>
+                        <li class="blog__numbers--num page__numbers--num">...</li>
+                    </ul>
+                    <button class="blog__numbers--btn page__numbers--btn" type="button">Далее >></button>
+                </div>
+                
+            </div>
+        </section>
+    </main>
+    
+    <footer class="footer">
+        <div class="container">
+            <ul class="footer__wrapper">
+                <li class="footer__item">
+                    <img class="footer__logo" src="./img/Tasmim_logo.svg" alt="logo">
+                    <div class="footer__icon--box">
+                        <a href="#"><img class="footer__icon" src="./img/insta_icon.svg" alt="insta"></a>
+                        <a href="#"><img class="footer__icon" src="./img/telegram_icon.svg" alt="telegram"></a>
+                        <a href="#"><img class="footer__icon" src="./img/twetter_icon.svg" alt="twetter"></a>
+                    </div>
+                    <h2 class="footer__title">TASMIM — маркетинговое <br> агентство полного цикла.</h2>
+                </li>
+                <li class="footer__item">
+                    <ul class="footer__contact">
+                        <li class="footer__contact--item">
+                            <h3 class="footer__contact--title">Офис в Ташкенте</h3>
+                            <p class="footer__contact--link">г.Ташкент, ....</p>
+                        </li>
+                        <li class="footer__contact--item">
+                            <h3 class="footer__contact--title">Телефон</h3>
+                            <p class="footer__contact--box">
+                                <a class="footer__contact--link" href="tel: +998 94 777-88-22">+998 94 777-88-22</a> 
+                                <br> 
+                                <a class="footer__contact--link" href="tel: +998 94 777-88-22">+998 94 777-88-22</a>
+                            </p>
+                        </li>
+                        <li class="footer__contact--item">
+                            <h3 class="footer__contact--title">Email</h3>
+                            <a class="footer__contact--link" href="#">info@tasmim.uz</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="footer__item">
+                    <ul class="footer__link--box">
+                        <li><a class="footer__link" href="./services.html">Услуги</a></li>
+                        <li><a class="footer__link" href="./about.html">О нас</a></li>
+                        <li><a class="footer__link" href="#">Проекты</a></li>
+                        <li><a class="footer__link" href="./contact.html">Контакты</a></li>
+                        <li><a class="footer__link" href="#team">Нашы учредители</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <hr>
+        <div class="container">
+            <div class="footer__bottom">
+                <p>© PO "TASMIM". Since 2021</p>
+                <p>Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/7.0.9/swiper-bundle.min.js" integrity="sha512-bPNHwutl0bNsjHtw+AtR2xvp0BLtpm9mN6LcqzDZifcQSYv/dPVvND245WZVst+m7GhYHX647RoaL9w6VVraxw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="./js/script.js"></script>
+</body>
+</html>

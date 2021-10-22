@@ -1,6 +1,7 @@
 .team{
     position: relative;
-    margin-bottom: 163px;
+    padding-bottom: 163px;
+    background-color: #161616;
     &__slider{
         width: 100%;
         position: relative;
@@ -79,7 +80,7 @@
 //********************
 @media screen and (max-width: 950px) {
     .team{
-        margin-bottom: 60px;
+        padding-bottom: 60px;
         &__item{
             width: 250px;
             &:last-child{
