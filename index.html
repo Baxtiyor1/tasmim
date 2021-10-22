@@ -7,8 +7,19 @@
     <title>Tasmim</title>
     <link rel="stylesheet" href="./services.html">
     <link rel="stylesheet" href="./css/main.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
 </head>
 <body>
+    <div style="display: none;" class="icon">
+        <svg width="0" height="0" class="hidden">
+            <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60" id="message_icon">
+                <circle cx="30" cy="30" r="30"  ></circle>
+                <path d="M43.5 44.9836C43.3659 45.0055 43.2291 45.0055 43.095 44.9836L34.98 42.7352C33.3713 43.2516 31.6896 43.5047 30 43.4847C26.1231 43.5773 22.3675 42.1306 19.5559 39.4615C16.7443 36.7923 15.1061 33.1183 15 29.2444C15.1061 25.3705 16.7443 21.6965 19.5559 19.0274C22.3675 16.3582 26.1231 14.9115 30 15.0042C33.8769 14.9115 37.6325 16.3582 40.4441 19.0274C43.2557 21.6965 44.8939 25.3705 45 29.2444C44.9971 32.0144 44.1494 34.7178 42.57 36.9941L44.895 42.99C44.9861 43.2425 45.0078 43.5148 44.9576 43.7784C44.9075 44.0421 44.7874 44.2875 44.61 44.489C44.4698 44.6443 44.2985 44.7685 44.1074 44.8537C43.9162 44.9389 43.7093 44.9831 43.5 44.9836ZM34.92 39.6023C35.0546 39.5876 35.1904 39.5876 35.325 39.6023L41.01 41.1912L39.51 37.2639C39.4088 37.0179 39.3749 36.7494 39.4118 36.486C39.4487 36.2226 39.5551 35.9737 39.72 35.765C41.1812 33.9035 41.9831 31.6102 42 29.2444C41.8943 26.1655 40.5722 23.2539 38.3232 21.1469C36.0742 19.0399 33.0814 17.9091 30 18.0021C26.9186 17.9091 23.9258 19.0399 21.6768 21.1469C19.4278 23.2539 18.1057 26.1655 18 29.2444C18.1057 32.3233 19.4278 35.2349 21.6768 37.3419C23.9258 39.449 26.9186 40.5797 30 40.4867C31.5054 40.4845 32.9985 40.2155 34.41 39.6923C34.5735 39.633 34.7461 39.6025 34.92 39.6023Z" fill="white"></path>
+            </symbol>
+        </svg>
+    </div>
     
     <header class="header">
         <div class="container">
@@ -85,23 +96,27 @@
                         </a>
                     </li>
                 </ul>
-                <a class="intro__message--icon" href="#message"><img src="./img/message_icon.svg" alt="icon"></a>
+                <a class="intro__message--icon" href="#message">
+                    <svg class="icon">
+                        <use xlink:href="#message_icon"></use>
+                    </svg>
+                </a>
             </div>
         </section>
         
         <section class="price" id="price">
             <div class="container">
-                <div class="price__intro--header">
+                <div class="price__intro--header" data-aos="fade-right">
                     <img class="price__intro--icon" src="./img/Vector_icon.svg" alt="vektor">
                     <p class="price__intro--title" >УСЛУГИ  И ПРАЙС</p>
                 </div>
                 <ul class="price__title">
-                    <li class="price__title--item"><button id="web" class="price__title--btn price__title--btn--active" type="button">Web-разработка</button></li>
-                    <li class="price__title--item"><button id="prod" class="price__title--btn" type="button">Продвижение</button></li>
-                    <li class="price__title--item"><button id="extra" class="price__title--btn" type="button">Extra услуги</button></li>
+                    <li class="price__title--item" data-aos="zoom-in"><button id="web" class="price__title--btn price__title--btn--active" type="button">Web-разработка</button></li>
+                    <li class="price__title--item" data-aos="zoom-in"><button id="prod" class="price__title--btn" type="button">Продвижение</button></li>
+                    <li class="price__title--item" data-aos="zoom-in"><button id="extra" class="price__title--btn" type="button">Extra услуги</button></li>
                 </ul>
                 <ul class="price__box">
-                    <li class="price__box--item">
+                    <li class="price__box--item" data-aos="fade-right">
                         <fieldset class="price__box--fieldset"> 
                             <legend class="price__box--legend">
                                 <span class="price__box--disk"></span>
@@ -117,7 +132,7 @@
                             </span>
                         </fieldset>
                     </li>
-                    <li class="price__box--item">
+                    <li class="price__box--item" data-aos="fade-left">
                         <fieldset class="price__box--fieldset"> 
                             <legend class="price__box--legend">
                                 <span class="price__box--disk"></span>
@@ -132,7 +147,7 @@
                             </span>
                         </fieldset>
                     </li>
-                    <li class="price__box--item">
+                    <li class="price__box--item" data-aos="fade-right">
                         <fieldset class="price__box--fieldset"> 
                             <legend class="price__box--legend">
                                 <span class="price__box--disk"></span>
@@ -149,7 +164,7 @@
                             </span>
                         </fieldset>
                     </li>
-                    <li class="price__box--item">
+                    <li class="price__box--item" data-aos="fade-left">
                         <fieldset class="price__box--fieldset"> 
                             <legend class="price__box--legend">
                                 <span class="price__box--disk"></span>
@@ -172,18 +187,18 @@
         
         <section id="about" class="about">
             <div class="container">
-                <div class="price__intro--header">
+                <div class="price__intro--header" data-aos="fade-right">
                     <img class="price__intro--icon" src="./img/Vector_icon.svg" alt="vektor">
                     <p class="price__intro--title">О НАС</p>
                 </div>
                 <div class="about__box">
                     <span class="about__wrapper">
-                        <p class="about__text">
+                        <p class="about__text" data-aos="fade-up-right">
                             Аудитория <span class="about__text--red">360 °</span> компания - под <br> управлением современного и <br>
                             ориентированного на <br> потребности собственника
                         </p>
                         <img class="about__eye" src="./img/eye.svg" alt="eye">
-                        <img class="about__img" src="./img/about_img.png" alt="img">
+                        <img class="about__img" data-aos="fade-left" src="./img/about_img.png" alt="img">
                         <div class="about__arraybox">
                             <img class="about__array" src="./img/about_array.svg" alt="array">
                             <span class="about__ellips"></span>
@@ -196,74 +211,110 @@
         
         <section id="team" class="team">
             <div class="container">
-                <div class="price__intro--header">
+                <div class="price__intro--header" data-aos="fade-right">
                     <img class="price__intro--icon" src="./img/Vector_icon.svg" alt="vektor">
                     <p class="price__intro--title">Наша команда</p>
                 </div>
-                <ul class="team__box">
-                    <li class="team__item">
-                        <div class="team__imgbox">
-                            <img class="team__img" src="./img/azam__img.png" alt="azamat_img">
-                            <div class="team__imghover">
-                                <a class="team__imghover--text" href="#">Подробнее</a>
+                <div class="team__slider swiper">
+                    <ul class="team__box swiper-wrapper">
+                        <li class=" swiper-slide team__item">
+                            <div class="team__imgbox">
+                                <img class="team__img" src="./img/azam__img.png" alt="azamat_img">
+                                <div class="team__imghover">
+                                    <a class="team__imghover--text" href="#">Подробнее</a>
+                                </div>
                             </div>
-                        </div>
-                        <h3 class="team__title">Азам Temurbekov</h3>
-                        <p class="team__text">Oснователь веб-агентства</p>
-                    </li>
-                    <li class="team__item">
-                        <div class="team__imgbox">
-                            <img class="team__img" src="./img/laura__img.png" alt="laura">
-                            <div class="team__imghover">
-                                <a class="team__imghover--text" href="#">Подробнее</a>
+                            <h3 class="team__title">Азам Temurbekov</h3>
+                            <p class="team__text">Oснователь веб-агентства</p>
+                        </li>
+                        <li class="team__item swiper-slide">
+                            <div class="team__imgbox">
+                                <img class="team__img" src="./img/laura__img.png" alt="laura">
+                                <div class="team__imghover">
+                                    <a class="team__imghover--text" href="#">Подробнее</a>
+                                </div>
                             </div>
-                        </div>
-                        <h3 class="team__title">Лаура Батесь </h3>
-                        <p class="team__text">Директор по развитию бизнеса</p>
-                    </li>
-                    <li class="team__item">
-                        <div class="team__imgbox">
-                            <img class="team__img" src="./img/maksim_img.png" alt="maksim_img">
-                            <div class="team__imghover">
-                                <a class="team__imghover--text" href="#">Подробнее</a>
+                            <h3 class="team__title">Лаура Батесь </h3>
+                            <p class="team__text">Директор по развитию бизнеса</p>
+                        </li>
+                        <li class="team__item swiper-slide">
+                            <div class="team__imgbox">
+                                <img class="team__img" src="./img/maksim_img.png" alt="maksim_img">
+                                <div class="team__imghover">
+                                    <a class="team__imghover--text" href="#">Подробнее</a>
+                                </div>
                             </div>
-                        </div>
-                        <h3 class="team__title">Максим Стифеев</h3>
-                        <p class="team__text">Сениор веб-программист</p>
-                    </li>
-                    <li class="team__item">
-                        <div class="team__imgbox">
-                            <img class="team__img" src="./img/saidravshan_img.png" alt="saidravshan_img">
-                            <div class="team__imghover">
-                                <a class="team__imghover--text" href="#">Подробнее</a>
+                            <h3 class="team__title">Максим Стифеев</h3>
+                            <p class="team__text">Сениор веб-программист</p>
+                        </li>
+                        <li class="team__item swiper-slide">
+                            <div class="team__imgbox">
+                                <img class="team__img" src="./img/saidravshan_img.png" alt="saidravshan_img">
+                                <div class="team__imghover">
+                                    <a class="team__imghover--text" href="#">Подробнее</a>
+                                </div>
                             </div>
-                        </div>
-                        <h3 class="team__title">Саидравшан Шакиров</h3>
-                        <p class="team__text">Мобильный разработчик</p>
-                    </li>
-                </ul>
+                            <h3 class="team__title">Саидравшан Шакиров</h3>
+                            <p class="team__text">Мобильный разработчик</p>
+                        </li>
+                        <li class="team__item swiper-slide">
+                            <div class="team__imgbox">
+                                <img class="team__img" src="./img/anton-afanasev.png" alt="anton_img">
+                                <div class="team__imghover">
+                                    <a class="team__imghover--text" href="#">Подробнее</a>
+                                </div>
+                            </div>
+                            <h3 class="team__title">Антон Афанасьев</h3>
+                            <p class="team__text">Сениор backend программист</p>
+                        </li>
+                        <li class="team__item swiper-slide">
+                            <div class="team__imgbox">
+                                <img class="team__img" src="./img/anjela-nikolaenko.png" alt="anjela-nikolaenko">
+                                <div class="team__imghover">
+                                    <a class="team__imghover--text" href="#">Подробнее</a>
+                                </div>
+                            </div>
+                            <h3 class="team__title">Анжела Николаенко</h3>
+                            <p class="team__text">Сениор график дизайнер</p>
+                        </li>
+                        <li class="team__item swiper-slide">
+                            <div class="team__imgbox">
+                                <img class="team__img" src="./img/valeriya shubina.png" alt="valeriya shubina">
+                                <div class="team__imghover">
+                                    <a class="team__imghover--text" href="#">Подробнее</a>
+                                </div>
+                            </div>
+                            <h3 class="team__title">Валерия Шубина</h3>
+                            <p class="team__text">Сениор UI/UX дизайнер</p>
+                        </li>
+                    </ul>
+                    <div class="slider_prev_btn swiper-button-prev"></div>
+                    <div class="slider_next_btn swiper-button-next"></div>
+                    <!-- <img src="./img/slider_prev_btn.svg" alt="prev">
+<img src="./img/slider_next_btn.svg" alt=""> -->
+                </div>
             </div>
         </section>
         
         <section id="partner" class="partner">
             <div class="container">
-                <div class="price__intro--header">
+                <div class="price__intro--header" data-aos="fade-right">
                     <img class="price__intro--icon" src="./img/Vector_icon.svg" alt="vektor">
                     <p class="price__intro--title">Наши партнёры</p>
                 </div>
                 <ul class="partner__menu">
-                    <li class="partner__link"><a href="#"><img src="./img/partner_door.png" alt="img"></a></li>
-                    <li class="partner__link"><a href="#"><img src="./img/partner_avva.png" alt="img"></a></li>
-                    <li class="partner__link"><a href="#"><img src="./img/partner_it_park.png" alt="img"></a></li>
-                    <li class="partner__link"><a href="#"><img src="./img/partner_element.png" alt="img"></a></li>
-                    <li class="partner__link"><a href="#"><img src="./img/partner_perfectum.png" alt="img"></a></li>
+                    <li class="partner__link" data-aos="zoom-in"><a href="#"><img src="./img/partner_door.png" alt="img"></a></li>
+                    <li class="partner__link" data-aos="zoom-in"><a href="#"><img src="./img/partner_avva.png" alt="img"></a></li>
+                    <li class="partner__link" data-aos="zoom-in"><a href="#"><img src="./img/partner_it_park.png" alt="img"></a></li>
+                    <li class="partner__link" data-aos="zoom-in"><a href="#"><img src="./img/partner_element.png" alt="img"></a></li>
+                    <li class="partner__link" data-aos="zoom-in"><a href="#"><img src="./img/partner_perfectum.png" alt="img"></a></li>
                 </ul>
             </div>
         </section>
         
-        <section id="blog" class="blog">
+        <section id="blog" class="blog" >
             <div class="container">
-                <div class="price__intro--header">
+                <div class="price__intro--header" data-aos="fade-right">
                     <img class="price__intro--icon" src="./img/Vector_icon.svg" alt="vektor">
                     <p class="price__intro--title">Блог</p>
                 </div>
@@ -363,7 +414,10 @@
     </footer>
     
     
-    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/7.0.9/swiper-bundle.min.js" integrity="sha512-bPNHwutl0bNsjHtw+AtR2xvp0BLtpm9mN6LcqzDZifcQSYv/dPVvND245WZVst+m7GhYHX647RoaL9w6VVraxw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        AOS.init();
+    </script>
     <script src="./js/script.js"></script>
 </body>
 </html>

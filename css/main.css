@@ -273,6 +273,17 @@ body {
   right: 6vw;
 }
 
+.intro__message--icon .icon {
+  fill: #000;
+  width: 60px;
+  height: 60px;
+  opacity: 0.7;
+}
+
+.intro__message--icon .icon:hover {
+  opacity: 1;
+}
+
 .intro__icon--box {
   max-height: 129px;
   display: -webkit-box;
@@ -400,6 +411,8 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .price__intro--icon {
@@ -465,6 +478,11 @@ body {
           transform: scale(1);
 }
 
+.price__title__item {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
 .price__box {
   margin-top: 142px;
   display: -webkit-box;
@@ -482,6 +500,8 @@ body {
 
 .price__box--item {
   margin-bottom: 72px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .price__box--fieldset {
@@ -718,6 +738,8 @@ body {
   line-height: 173.52%;
   text-transform: uppercase;
   color: #FFFFFF;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .about__text--red {
@@ -809,6 +831,11 @@ body {
   margin-bottom: 163px;
 }
 
+.team__slider {
+  width: 100%;
+  position: relative;
+}
+
 .team__box {
   max-width: 1723px;
   margin: 0 auto;
@@ -819,13 +846,19 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
 }
 
 .team__item {
-  width: 392px;
-  margin-bottom: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .team__imgbox {
@@ -931,18 +964,6 @@ body {
   }
 }
 
-@media screen and (max-width: 560px) {
-  .team__box {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-}
-
 .partner {
   padding-top: 22px;
   background-color: #fff;
@@ -961,6 +982,8 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .partner__title {
@@ -971,6 +994,11 @@ body {
   text-transform: uppercase;
   color: #000000;
   margin-top: 41px;
+}
+
+.partner__link {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 @media screen and (max-width: 1200px) {

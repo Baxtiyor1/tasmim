@@ -7,6 +7,7 @@
         flex-wrap: wrap;
         justify-content: space-between;
         align-items: center;
+        transition: 0.5s;
     }
     &__title{
         font-weight: bold;
@@ -17,6 +18,9 @@
         color: #000000;
         margin-top: 41px;
         
+    }
+    &__link{
+        transition: 0.5s;
     }
 }
 
