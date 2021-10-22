@@ -16,9 +16,11 @@
         margin-bottom: 33px;
     }
     &__text{
+        // width: 1078px;
         font-size: 20px;
         line-height: 140%;
         text-align: center;
+        padding: 0 20px;
         color: #000000;
     }
 }
@@ -30,8 +32,9 @@
             font-size: 22px;
         }
         &__text{
+            // width: 700px;
             font-size: 18px;
- 
+            
         }
     }
 }
@@ -43,8 +46,9 @@
             font-size: 18px;
         }
         &__text{
+            // width: 400px;
             font-size: 15px;
- 
+            
         }
     }
 }
