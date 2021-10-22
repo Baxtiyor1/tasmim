@@ -10,17 +10,16 @@
             width: 120px;
             display: flex;
             align-items: center;
+            justify-content: space-around;
             cursor: pointer;
             &:hover .header__box{
-                margin-right: 3px;
                 width: 37px;
                 height: 37px;
             }
         }
     }
     &__box{
-        transition: 0.2s;
-        margin-right: 6px;
+        transition: 0.3s;
         width: 31px;
         height: 31px;
         background: #FFFFFF;
@@ -51,6 +50,7 @@
         border: 2px solid #ED111D;
         border-radius: 5px;
         color: #fff;
+        transition: 0.5s;
         &:hover{
             background-color: #fff;
             color: #ED111D;

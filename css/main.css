@@ -58,19 +58,19 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   cursor: pointer;
 }
 
 .header__item:first-child:hover .header__box {
-  margin-right: 3px;
   width: 37px;
   height: 37px;
 }
 
 .header__box {
-  -webkit-transition: 0.2s;
-  transition: 0.2s;
-  margin-right: 6px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
   width: 31px;
   height: 31px;
   background: #FFFFFF;
@@ -111,6 +111,8 @@ body {
   border: 2px solid #ED111D;
   border-radius: 5px;
   color: #fff;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .header__phone--link:hover {
@@ -167,6 +169,11 @@ body {
   bottom: -7%;
 }
 
+.intro__item {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
 .intro__item:nth-child(1) {
   display: none;
 }
@@ -204,6 +211,8 @@ body {
   color: transparent;
   background-repeat: no-repeat;
   background-size: cover;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .intro__text--marketing {
@@ -213,6 +222,8 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   font-weight: bold;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .intro__text--agentsva {
@@ -223,6 +234,8 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   font-weight: bold;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .intro__text--smart {
@@ -234,6 +247,8 @@ body {
   line-height: 100.52%;
   text-align: right;
   color: rgba(0, 0, 0, 0.6);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .intro__text--discription {
@@ -245,15 +260,21 @@ body {
   text-align: center;
   color: rgba(0, 0, 0, 0.6);
   text-align: center;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .intro__text--btn {
   position: relative;
   padding: 17px;
-  font-weight: bold;
   font-size: 20px;
   line-height: 100.52%;
   color: rgba(0, 0, 0, 0.6);
+}
+
+.intro__text--btn:hover {
+  font-weight: bold;
+  color: #000;
 }
 
 .intro__text--btn--icon {
@@ -1098,7 +1119,10 @@ body {
 }
 
 .blog__numbers--num {
-  margin-right: 20px;
+  width: 25px;
+  max-width: 100%;
+  margin-right: 10px;
+  text-align: center;
 }
 
 .blog__numbers--num:first-child {
