@@ -122,13 +122,14 @@
         </section>
         <section id="team" class="team">
             <div class="container">
-                
                 <ul class="team__box">
                     <li class="team__item">
                         <div class="team__imgbox">
                             <img class="team__img" src="./img/azam__img.png" alt="azamat_img">
                             <div class="team__imghover">
-                                <a class="team__imghover--text" href="#">Подробнее</a>
+                                <button class= "team__open">
+                                    <a class="team__imghover--text" href="#team__modal">Подробнее</a>
+                                </button>
                             </div>
                         </div>
                         <h3 class="team__title">Азам Temurbekov</h3>
@@ -138,7 +139,9 @@
                         <div class="team__imgbox">
                             <img class="team__img" src="./img/laura__img.png" alt="laura">
                             <div class="team__imghover">
-                                <a class="team__imghover--text" href="#">Подробнее</a>
+                                <button class= "team__open">
+                                    <a class="team__imghover--text" href="#team__modal">Подробнее</a>
+                                </button>
                             </div>
                         </div>
                         <h3 class="team__title">Лаура Батесь </h3>
@@ -148,7 +151,9 @@
                         <div class="team__imgbox">
                             <img class="team__img" src="./img/maksim_img.png" alt="maksim_img">
                             <div class="team__imghover">
-                                <a class="team__imghover--text" href="#">Подробнее</a>
+                                <button class= "team__open">
+                                    <a class="team__imghover--text" href="#team__modal">Подробнее</a>
+                                </button>
                             </div>
                         </div>
                         <h3 class="team__title">Максим Стифеев</h3>
@@ -158,7 +163,9 @@
                         <div class="team__imgbox">
                             <img class="team__img" src="./img/saidravshan_img.png" alt="saidravshan_img">
                             <div class="team__imghover">
-                                <a class="team__imghover--text" href="#">Подробнее</a>
+                                <button class= "team__open">
+                                    <a class="team__imghover--text" href="#team__modal">Подробнее</a>
+                                </button>
                             </div>
                         </div>
                         <h3 class="team__title">Саидравшан Шакиров</h3>
@@ -168,7 +175,9 @@
                         <div class="team__imgbox">
                             <img class="team__img" src="./img/anton-afanasev.png" alt="anton_img">
                             <div class="team__imghover">
-                                <a class="team__imghover--text" href="#">Подробнее</a>
+                                <button class= "team__open">
+                                    <a class="team__imghover--text" href="#team__modal">Подробнее</a>
+                                </button>
                             </div>
                         </div>
                         <h3 class="team__title">Антон Афанасьев</h3>
@@ -178,7 +187,9 @@
                         <div class="team__imgbox">
                             <img class="team__img" src="./img/anjela-nikolaenko.png" alt="anjela-nikolaenko">
                             <div class="team__imghover">
-                                <a class="team__imghover--text" href="#">Подробнее</a>
+                                <button class= "team__open">
+                                    <a class="team__imghover--text" href="#team__modal">Подробнее</a>
+                                </button>
                             </div>
                         </div>
                         <h3 class="team__title">Анжела Николаенко</h3>
@@ -188,13 +199,35 @@
                         <div class="team__imgbox">
                             <img class="team__img" src="./img/valeriya shubina.png" alt="valeriya shubina">
                             <div class="team__imghover">
-                                <a class="team__imghover--text" href="#">Подробнее</a>
+                                <button class= "team__open">
+                                    <a class="team__imghover--text" href="#team__modal">Подробнее</a>
+                                </button>
                             </div>
                         </div>
                         <h3 class="team__title">Валерия Шубина</h3>
                         <p class="team__text">Сениор UI/UX дизайнер</p>
                     </li>
                 </ul>
+                <div class="team__modal">
+                    <button class="team__close" id="team__modal">
+                        <img class="team__close-img" src="./img/team-close.svg" alt="close-btn">
+                    </button>
+                    <div class="team__modal-wrapper">
+                        <img class="team__modal-img" src="./img/maksim_img.png" alt="">
+                        <div class="team__modal--right">
+                            <h4 class="team__modal-name">Максим Стифеев</h4>
+                        <p class="team__modal-bio">
+                            Мобильный разработчик <br> <br>
+                            Он занимается программированием с 2011 года. Его основной навык – создание мобильных приложений для iOS и Android, их постоянное тестирование для клиентов интернет агентства.</p>
+                        <p class="team__modal-contact">Контакты:</p>
+                        <div class="footer__icon--box">
+                            <a href="#"><img class="footer__icon" src="./img/insta_icon.svg" alt="insta"></a>
+                            <a href="#"><img class="footer__icon" src="./img/telegram_icon.svg" alt="telegram"></a>
+                            <a href="#"><img class="footer__icon" src="./img/twetter_icon.svg" alt="twetter"></a>
+                        </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
         
