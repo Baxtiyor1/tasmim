@@ -11,21 +11,27 @@ elModalCloseBtn.addEventListener('click', ()=>{
 })
 
 // ------------ team modal ---------
-const elTeamOpenBtn = document.querySelectorAll('.team__open');
+try{
+    const elTeamOpenBtn = document.querySelectorAll('.team__open');
 const elTeamCloseBtn = document.querySelector('.team__close');
 const elTeamModal = document.querySelector('.team__modal');
 
-elTeamOpenBtn.addEventListener('click', ()=>{
-    elTeamModal.classList.add('team__modal__active')
-});
+console.log(elTeamCloseBtn)
+elTeamOpenBtn.forEach(btn =>{
+    btn.addEventListener('click', ()=>{
+        elTeamModal.classList.add('team__modal__active')
+    });
+})
 elTeamCloseBtn.addEventListener('click', ()=>{
     elTeamModal.classList.remove('team__modal__active')
 });
+}catch{console.log('modal error')}
 // console.log(elTeamOpenBtn)
 
 
 // ********** price section price titles *************
-const priceWebBtn = document.querySelector('#web');
+try{
+    const priceWebBtn = document.querySelector('#web');
 const priceProdBtn = document.querySelector('#prod');
 const priceExtraBtn = document.querySelector('#extra');
 
@@ -50,39 +56,42 @@ priceExtraBtn.addEventListener('click', ()=>{
         priceProdBtn.classList.remove('price__title--btn--active')
     }
 })
+}catch{console.log('err')}
 
 
 
 //******* Slider *********/
 
-let mySlider = new Swiper(".team__slider", {
+try{
+    let mySlider = new Swiper(".team__slider", {
     
-    navigation: {
-        nextEl: ".slider_next_btn",
-        prevEl: ".slider_prev_btn",
-    },
+        navigation: {
+            nextEl: ".slider_next_btn",
+            prevEl: ".slider_prev_btn",
+        },
+        
+        slidesPerView: 4,
+        spaceBetween: 0,
     
-    slidesPerView: 4,
-    spaceBetween: 0,
-
-    //REsponsive
-    breakpoints: {
-        0: {
-            slidesPerView: 1,
-            // spaceBetween: 0,
-        },
-        560: {
-            slidesPerView: 2,
-            //   spaceBetween: 0,
-        },
-        1115: {
-          slidesPerView: 3,
-        //   spaceBetween: 20,
-        },
-        1427: {
-          slidesPerView: 4,
-        //   spaceBetween: 50,
+        //REsponsive
+        breakpoints: {
+            0: {
+                slidesPerView: 1,
+                // spaceBetween: 0,
+            },
+            560: {
+                slidesPerView: 2,
+                //   spaceBetween: 0,
+            },
+            1115: {
+              slidesPerView: 3,
+            //   spaceBetween: 20,
+            },
+            1427: {
+              slidesPerView: 4,
+            //   spaceBetween: 50,
+            }
         }
-    }
-});
+    });
+}catch{console.log('swipper err')}
 
