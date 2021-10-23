@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Services</title>
     <link rel="stylesheet" href="./css/main.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 <body>
     
@@ -54,9 +56,11 @@
     <main>
         <section class="service__intro">
             <div class="container">
-                <a class="service__intro--link" href="#price">Услуги и прайс ></a>
-                <a class="service__intro--link" href="#price__web--id">Web-разработка</a>
-                <div class="service__intro-wrapper">
+                <div class="service__box" data-aos="fade-right" data-aos-duration="700">
+                    <a class="service__intro--link" href="#price">Услуги и прайс ></a>
+                    <a class="service__intro--link" href="#price__web--id">Web-разработка</a>
+                </div>
+                <div class="service__intro-wrapper" data-aos="zoom-in">
                     <p class="service__intro-text">
                         <span class="service__intro-text service__intro-text--bold">Наша цель</span>
                         - создание сайта, с помощью которого вы сможете развивать свой бизнес, используя современные технологии и опыт профессионалов в сфере web-разработки
@@ -65,99 +69,99 @@
                 </div>
             </div>
         </section>
-
+        
         <section class="context">
             <div class="container">
                 <ul class="context__menu">
                     <li class="context__item">
-                        <div class="context__line-header context__line-header--left">
+                        <div class="context__line-header context__line-header--left" data-aos="fade-right" data-aos-duration="700" data-aos-offset="300">
                             <span class="context__line context__line--lending"></span>
                             <h4 class="context__line-title">Лендинг</h4>
                             <img class="context__line--icon price__intro--icon" src="./img/Vector_icon.svg" alt="">
                         </div>
                         <div class="context__wrapper">
-                            <h5 class="context__title context__title--left">
+                            <h5 class="context__title context__title--left"  data-aos="fade-right" data-aos-duration="700" data-aos-offset="300">
                                 Нужен быстрый старт? <br>
                                 Заказать лендинг - лучшее решение
                             </h5>
                             <div class="context__text-wrapper context__text-wrapper--top">
-                                <p class="context__text context__text--left">
+                                <p class="context__text context__text--left" data-aos="fade-down-right" data-aos-offset="300" data-aos-duration="700">
                                     Мы занимаемся разработкой лендингов
                                     с упором на дизайн и легкость восприятия информации пользователем. Landing page - это одностраничная посадочная страница, цель которой – привлекать внимание клиента, мотивировать его сделать заказ. Она может предлагать пользователю товар или услугу или совершить онлайн оплату. Все зависит от того, на какое целевое действие вы ориентируетесь.
                                 </p>
-                                <p class="context__text context__text--right">
+                                <p class="context__text context__text--right" data-aos="fade-down-left" data-aos-offset="300" data-aos-duration="700">
                                     Возможности, которые открывает перед нами интернет, практически не ограничены. Мы используем его для развлечения, образования, интересного времяпрепровождения, саморазвития, покупки и продажи разной продукции, развития бизнеса и решения других задач.
                                 </p>
                             </div>
-                            <h5 class="context__title context__title--left">Что представляет собой создание сайта с нуля?</h5>
+                            <h5 class="context__title context__title--left" data-aos="fade-right" data-aos-duration="700" data-aos-offset="300">Что представляет собой создание сайта с нуля?</h5>
                             <div class="context__text-wrapper context__text-wrapper--bottom">
-                                <p class="context__text context__text--left">
+                                <p class="context__text context__text--left" data-aos="fade-up-right" data-aos-offset="300" data-aos-duration="700">
                                     Web-разработку. Нам под силу изготовление онлайн-ресурсов любой сложности, от простого одностраничного лендинга до сложного инет-магазина с множеством подкатегорий и фильтров товаров. Разработка сайтов в Украине подразумевает комплексный подход, начиная с формирования дизайна, прототипирования интерфейса и юзабилити, и вплоть до внедрения разных функциональных элементов.
                                 </p>
-                                <p class="context__text context__text--right">
+                                <p class="context__text context__text--right" data-aos="fade-up-right" data-aos-offset="300" data-aos-duration="700">
                                     Продвижение. Развитие веб-платформы после ее создания — ключевой аспект успешного проекта. В рамках раскрутки мы задействуем все доступные инструменты интернет-маркетинга: SEO, PPC, SMM, емейл рассылки, крауд, таргетинг 
                                 </p>
                             </div>
                         </div>
                     </li>
                     <li class="context__item">
-                        <div class="context__line-header context__line-header--right">
+                        <div class="context__line-header context__line-header--right" data-aos="fade-left" data-aos-duration="700" data-aos-offset="300">
                             <span class="context__line context__line--shop"></span>
                             <h4 class="context__line-title">Интернет - магазин</h4>
                             <img class="context__line--icon price__intro--icon" src="./img/vector-to-left.svg" alt="">
                         </div>
                         <div class="context__wrapper">
-                            <h5 class="context__title context__title--right">Делаем интернет-магазины, чтобы вы делали деньги </h5>
-                            <p class="context__subtext context__subtext--right">
+                            <h5 class="context__title context__title--right" data-aos="fade-left" data-aos-duration="700" data-aos-offset="300">Делаем интернет-магазины, чтобы вы делали деньги </h5>
+                            <p class="context__subtext context__subtext--right" data-aos="fade-left" data-aos-duration="700" data-aos-offset="300">
                                 Интернет-магазин — сайт, торгующий товарами посредством сети Интернет. Согласно статистике, не менее 74% людей заказывают товары в онлайн-магазинах.
                             </p>
-                            <h5 class="context__title context__title--left">Заказать интернет магазин с нуля и развить успешный бизнес</h5>
+                            <h5 class="context__title context__title--left" data-aos="fade-right" data-aos-duration="700" data-aos-offset="300">Заказать интернет магазин с нуля и развить успешный бизнес</h5>
                             <div class="context__text-wrapper context__text-wrapper--top">
-                                <p class="context__text context__text--left">
+                                <p class="context__text context__text--left" data-aos="fade-right" data-aos-duration="700" data-aos-offset="300">
                                     Онлайн продажи сегодня являются одним из наиболее популярных способов развития торгового бизнеса. Если вы производите какие-либо товары или хотите стать дилером и сотрудничать с разными поставщиками, вам необходимо создать интернет магазин и активно развивать его в сети. Разработав интерактивный, понятный и функциональный сайт, вы начнете зарабатывать деньги, и обретете успешный бизнес.
                                 </p>
-                                <p class="context__text context__text--right">
+                                <p class="context__text context__text--right" data-aos="fade-left" data-aos-duration="700" data-aos-offset="300">
                                     Возможности, которые открывает перед нами интернет, практически не ограничены. Мы используем его для развлечения, образования, интересного времяпрепровождения, саморазвития, покупки и продажи разной продукции, развития бизнеса и решения других задач.
                                 </p>
                             </div>
-                            <h5 class="context__title context__title--left">Интернет магазин под ключ — цели и функции</h5>
+                            <h5 class="context__title context__title--left" data-aos="fade-right" data-aos-duration="700" data-aos-offset="300">Интернет магазин под ключ — цели и функции</h5>
                             <div class="context__text-wrapper context__text-wrapper--bottom">
-                                <p class="context__text context__text--left">
+                                <p class="context__text context__text--left" data-aos="fade-right" data-aos-duration="700" data-aos-offset="300">
                                     Как известно, для пользователей онлайн покупки выгодны ввиду экономии времени и денег. Человеку не нужно тратить полдня на поиск нужного продукта на рынке или в торговом центре, и переплачивать за него, ведь оффлайн магазины вкладывают в цену стоимость аренды, зарплаты, коммунальных услуг и т.д. Еще готовый интернет магазин привлекает людей доступностью информации. Если раньше за советами обращались к друзьям, родственникам, коллегам, то сейчас описание и все характеристики товара доступны на одной странице. Там же можно ознакомиться с отзывами покупателей и советами по эксплуатации, глянуть обзорный видеоролик и т.д.
                                 </p>
-                                <p class="context__text context__text--right">
+                                <p class="context__text context__text--right" data-aos="fade-left" data-aos-duration="700" data-aos-offset="300">
                                     Для успешного решения задач и достижения поставленных целей создание интернет магазина сопровождается внедрением соответствующего функционала. С его помощью обеспечивается комфортность посещения сайта пользователем. Таким образом, если вы решили интернет магазин заказать с нуля, важно на этапе проектирования предусмотреть все нужные для стабильной работы функции.
                                 </p>
                             </div>
                         </div>
                     </li>
                     <li class="context__item">
-                        <div class="context__line-header context__line-header--left">
+                        <div class="context__line-header context__line-header--left" data-aos="fade-right" data-aos-duration="700" data-aos-offset="300">
                             <span class="context__line context__line--blog"></span>
                             <h4 class="context__line-title">Личный блог</h4>
                             <img class="context__line--icon price__intro--icon" src="./img/Vector_icon.svg" alt="">
                         </div>
                         <div class="context__wrapper">
-                            <h5 class="context__title context__title--left">Разработка личного блога</h5>
-                            <p class="context__subtext context__subtext--left">
+                            <h5 class="context__title context__title--left" data-aos="fade-right" data-aos-duration="700" data-aos-offset="300">Разработка личного блога</h5>
+                            <p class="context__subtext context__subtext--left" data-aos="fade-right" data-aos-duration="700" data-aos-offset="300">
                                 Личный блог - это персональная страница человека, на которой он делится своими впечатлениями, эмоциями, размышлениями и фото..
                             </p>
-                            <h5 class="context__title context__title--left">Этапы создания личного блога</h5>
+                            <h5 class="context__title context__title--left" data-aos="fade-right" data-aos-duration="700" data-aos-offset="300">Этапы создания личного блога</h5>
                             <div class="context__text-wrapper context__text-wrapper--top">
-                                <p class="context__text context__text--left">
+                                <p class="context__text context__text--left" data-aos="fade-right" data-aos-duration="700" data-aos-offset="300">
                                     Мы занимаемся разработкой лендингов
                                     с упором на дизайн и легкость восприятия информации пользователем. Landing page - это одностраничная посадочная страница, цель которой – привлекать внимание клиента, мотивировать его сделать заказ. Она может предлагать пользователю товар или услугу или совершить онлайн оплату. Все зависит от того, на какое целевое действие вы ориентируетесь.
                                 </p>
-                                <p class="context__text context__text--right">
+                                <p class="context__text context__text--right" data-aos="fade-left" data-aos-duration="700" data-aos-offset="300">
                                     Возможности, которые открывает перед нами интернет, практически не ограничены. Мы используем его для развлечения, образования, интересного времяпрепровождения, саморазвития, покупки и продажи разной продукции, развития бизнеса и решения других задач.
                                 </p>
                             </div>
-                            <h5 class="context__title context__title--left">На каком движке лучше всего создать свой блог?</h5>
+                            <h5 class="context__title context__title--left" data-aos="fade-right" data-aos-duration="700" data-aos-offset="300">На каком движке лучше всего создать свой блог?</h5>
                             <div class="context__text-wrapper context__text-wrapper--bottom">
-                                <p class="context__text context__text--left">
+                                <p class="context__text context__text--left" data-aos="fade-right" data-aos-duration="700" data-aos-offset="300">
                                     Существует масса конструкторов сайтов, позволяющих создавать блоги, однако многие из них предлагают в рамках бесплатной версии слишком урезанный функционал. Чего не скажешь про CMS Wordpress. Он относится к open source ПО и устанавливается бесплатно. Конечно, для этого движка имеются платные плагины, которые расширяют его возможности, но и без них можно спокойно пользоваться системой без потери комфортности.
                                 </p>
-                                <p class="context__text context__text--right">
+                                <p class="context__text context__text--right" data-aos="fade-left" data-aos-duration="700" data-aos-offset="300">
                                     Возможности, которые открывает перед нами интернет, практически не ограничены. Мы используем его для развлечения, образования, интересного времяпрепровождения, саморазвития, покупки и продажи разной продукции, развития бизнеса и решения других задач.
                                     
                                 </p>
@@ -165,31 +169,31 @@
                         </div>
                     </li>
                     <li class="context__item">
-                        <div class="context__line-header context__line-header--right">
+                        <div class="context__line-header context__line-header--right" data-aos="fade-left" data-aos-duration="700" data-aos-offset="300">
                             <span class="context__line context__line--visit"></span>
                             <h4 class="context__line-title">Сайт - визитка</h4>
                             <img class="context__line--icon price__intro--icon" src="./img/vector-to-left.svg" alt="">
                         </div>
                         <div class="context__wrapper">
-                            <h5 class="context__title context__title--right">Заказать сайт визитку: качественно и недорого</h5>
-                            <p class="context__subtext context__subtext--right">
+                            <h5 class="context__title context__title--right" data-aos="fade-left" data-aos-duration="700" data-aos-offset="300">Заказать сайт визитку: качественно и недорого</h5>
+                            <p class="context__subtext context__subtext--right" data-aos="fade-left" data-aos-duration="700" data-aos-offset="300">
                                 Сайт-визитка — это небольшой сайт с информацией, которая позволяет получить представление о деятельности компании.
                             </p>
-                            <h5 class="context__title context__title--left">Сайт визитка — яркое представление бренда в интернете</h5>
+                            <h5 class="context__title context__title--left" data-aos="fade-right" data-aos-duration="700" data-aos-offset="300">Сайт визитка — яркое представление бренда в интернете</h5>
                             <div class="context__text-wrapper context__text-wrapper--top">
-                                <p class="context__text context__text--left">
+                                <p class="context__text context__text--left" data-aos="fade-right" data-aos-duration="700" data-aos-offset="300">
                                     Мы занимаемся разработкой лендингов с упором на дизайн и легкость восприятия информации пользователем. Landing page - это одностраничная посадочная страница, цель которой – привлекать внимание клиента, мотивировать его сделать заказ. Она может предлагать пользователю товар или услугу или совершить онлайн оплату. Все зависит от того, на какое целевое действие вы ориентируетесь.
                                 </p>
-                                <p class="context__text context__text--right">
+                                <p class="context__text context__text--right" data-aos="fade-left" data-aos-duration="700" data-aos-offset="300">
                                     Визитные карточки — красочные, броские, информативные, но в то же время лаконичные рекламные элементы, изготовленные из бумаги или пластика, давно известны предпринимателям и все еще используются в наши дни. Они и сейчас представляют собой эффективный способ поделиться контактами с потенциальными клиентами в оффлайне.
                                 </p>
                             </div>
-                            <h5 class="context__title context__title--left">Разработка сайта визитки под ключ</h5>
+                            <h5 class="context__title context__title--left" data-aos="fade-right" data-aos-duration="700" data-aos-offset="300">Разработка сайта визитки под ключ</h5>
                             <div class="context__text-wrapper context__text-wrapper--bottom">
-                                <p class="context__text context__text--left">
+                                <p class="context__text context__text--left" data-aos="fade-right" data-aos-duration="700" data-aos-offset="300">
                                     Мы занимаемся разработкой лендингов с упором на дизайн и легкость восприятия информации пользователем. Landing page - это одностраничная посадочная страница, цель которой – привлекать внимание клиента, мотивировать его сделать заказ. Она может предлагать пользователю товар или услугу или совершить онлайн оплату. Все зависит от того, на какое целевое действие вы ориентируетесь.
                                 </p>
-                                <p class="context__text context__text--right">
+                                <p class="context__text context__text--right" data-aos="fade-left" data-aos-duration="700" data-aos-offset="300">
                                     Возможности, которые открывает перед нами интернет, практически не ограничены. Мы используем его для развлечения, образования, интересного времяпрепровождения, саморазвития, покупки и продажи разной продукции, развития бизнеса и решения других задач.
                                 </p>
                             </div>
@@ -198,10 +202,10 @@
                 </ul>
             </div>
         </section>
-
+        
         <section class="connection__section">
             <div class="container">
-                <div class="connection">
+                <div class="connection" data-aos="zoom-in" data-aos-duration="700" data-aos-offset="300">
                     <h3 class="connection__title">Давайте работать вместе</h3>
                     <p class="connection__text">Напишите нам для обсуждения любых вопросов <br> Оставьте заявку и мы с вами свяжемся</p>
                     <form class="connection__form">
@@ -271,6 +275,11 @@
             </div>
         </div>
     </footer>
+    
+    
+    <script>
+        AOS.init();
+    </script>
     <script src="./js/script.js"></script>
 </body>
 </html>
