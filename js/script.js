@@ -16,7 +16,6 @@ try{
     const elTeamCloseBtn = document.querySelector('#team__modal--close');
     const elTeamModal = document.querySelector('.team__modal');
     
-    console.log(elTeamCloseBtn)
     elTeamOpenBtn.forEach(btn =>{
         btn.addEventListener('click', ()=>{
             elTeamModal.classList.add('team__modal__active')
@@ -26,19 +25,6 @@ try{
         elTeamModal.classList.remove('team__modal__active')
     });
 }catch{console.log('modal error')}
-
-
-// const elTeamOpenBtn = document.querySelectorAll('.team__open');
-// const elTeamCloseBtn = document.querySelector('.team__close');
-// const elTeamModal = document.querySelector('.team__modal');
-
-// elTeamOpenBtn.addEventListener('click', ()=>{
-//     elTeamModal.classList.add('team__modal__active')
-// });
-// elTeamCloseBtn.addEventListener('click', ()=>{
-//     elTeamModal.classList.remove('team__modal__active')
-// });
-// console.log(elTeamOpenBtn)
 
 
 // ********** price section price titles *************
@@ -138,5 +124,4 @@ try{
             }
         }
     });
-}catch{console.log('swipper err')}
-
+}catch{console.log('swipper partner err')}
