@@ -4,7 +4,7 @@
     &__menu{
         padding: 56px 0 35px;
         display: flex;
-        flex-wrap: wrap;
+        // flex-wrap: wrap;
         justify-content: space-between;
         align-items: center;
         transition: 0.5s;
@@ -27,13 +27,13 @@
 //*******************
 // MEDIA
 //*******************
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 950px) {
     .partner{
         &__menu{
-            justify-content: center;
+            padding: 35px 0 32px;
         }
-        &__link{
-            margin:0 15px;
+        &__img{
+            width: 115px;
         }
     }
 }
