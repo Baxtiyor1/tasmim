@@ -42,16 +42,8 @@ body {
 .header__item:first-child {
   width: 120px;
   display: flex;
-<<<<<<< HEAD
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-=======
   align-items: center;
   justify-content: space-around;
->>>>>>> 61fd0e4e475b70fa7e81bae352351767075d1541
   cursor: pointer;
 }
 .header__item:first-child:hover .header__box {
@@ -59,10 +51,6 @@ body {
   height: 37px;
 }
 .header__box {
-<<<<<<< HEAD
-  -webkit-transition: 0.3s;
-=======
->>>>>>> 61fd0e4e475b70fa7e81bae352351767075d1541
   transition: 0.3s;
   width: 31px;
   height: 31px;
@@ -94,7 +82,6 @@ body {
   border: 2px solid #ED111D;
   border-radius: 5px;
   color: #fff;
-  -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 .header__phone--link:hover {
@@ -144,18 +131,9 @@ body {
   left: 50%;
   bottom: -7%;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> 61fd0e4e475b70fa7e81bae352351767075d1541
 .intro__item {
-  -webkit-transition: 0.5s;
   transition: 0.5s;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> 61fd0e4e475b70fa7e81bae352351767075d1541
 .intro__item:nth-child(1) {
   display: none;
 }
@@ -182,7 +160,6 @@ body {
   color: transparent;
   background-repeat: no-repeat;
   background-size: cover;
-  -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 .intro__text--marketing {
@@ -192,7 +169,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   font-weight: bold;
-  -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 .intro__text--agentsva {
@@ -203,7 +179,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   font-weight: bold;
-  -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 .intro__text--smart {
@@ -215,7 +190,6 @@ body {
   line-height: 100.52%;
   text-align: right;
   color: rgba(0, 0, 0, 0.6);
-  -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 .intro__text--discription {
@@ -227,7 +201,6 @@ body {
   text-align: center;
   color: rgba(0, 0, 0, 0.6);
   text-align: center;
-  -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 .intro__text--btn {
@@ -237,18 +210,10 @@ body {
   line-height: 100.52%;
   color: rgba(0, 0, 0, 0.6);
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> 61fd0e4e475b70fa7e81bae352351767075d1541
 .intro__text--btn:hover {
   font-weight: bold;
   color: #000;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> 61fd0e4e475b70fa7e81bae352351767075d1541
 .intro__text--btn--icon {
   position: absolute;
   transform: translateY(-7px) translateX(-18px);
@@ -472,6 +437,12 @@ body {
 }
 .price__box--btn:hover {
   transform: scale(1.05);
+}
+.price__box--link {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 100.52%;
+  color: #FFFFFF;
 }
 .price__box--disk {
   margin: 0 14px 0 11px;
@@ -2748,11 +2719,9 @@ body {
     padding: 0;
   }
   .team__modal__active {
-    display: flex;
     transform: translateX(0);
   }
   .team__modal-wrapper {
-    display: flex;
     justify-content: space-around;
   }
   .team__modal--right {
@@ -2760,66 +2729,36 @@ body {
   }
   .team__modal-img {
     width: 490px;
-    max-width: 100%;
     height: 790px;
     max-height: 100%;
     margin-right: 80px;
   }
 }
 @media screen and (max-width: 1587px) {
-  .team__modal {
-    flex-direction: column;
-    padding: 0;
-  }
-  .team__modal__active {
-    display: flex;
-    transform: translateX(0);
-  }
-  .team__modal-wrapper {
-    display: flex;
-    justify-content: space-around;
-  }
   .team__modal--right {
     width: 653px;
-  }
-  .team__modal-img {
-    width: 490px;
-    max-width: 100%;
-    height: 790px;
-    max-height: 100%;
   }
 }
 @media screen and (max-width: 1200px) {
   .team__modal {
-    flex-direction: column;
     max-width: 100%;
     padding: 50px;
-  }
-  .team__modal-wrapper {
-    display: flex;
-    justify-content: space-around;
   }
   .team__modal--right {
     width: 453px;
   }
   .team__modal-img {
     width: 500px;
-    max-width: 100%;
     height: 750px;
-    max-height: 100%;
     margin-right: 50px;
   }
   .team__modal-name {
     font-weight: bold;
     font-size: 40px;
     line-height: 156.02%;
-    text-transform: uppercase;
-    color: rgba(255, 255, 255, 0.5);
   }
   .team__modal-bio {
     font-size: 25px;
-    line-height: 140%;
-    color: #FFFFFF;
     margin-bottom: 80px;
   }
 }
@@ -2829,7 +2768,6 @@ body {
     padding-top: 20px;
   }
   .team__modal-wrapper {
-    padding-top: 100px;
     padding-bottom: 66px;
     flex-direction: column;
     align-items: center;
@@ -2847,11 +2785,8 @@ body {
   }
   .team__modal-img {
     width: 500px;
-    max-width: 100%;
     height: 700px;
-    max-height: 100%;
     margin: 20px 0;
-    margin-top: 800px;
   }
   .team__modal-contact {
     max-width: 100%;
@@ -2870,22 +2805,15 @@ body {
     padding-top: 20px;
   }
   .team__modal-wrapper {
-    padding-top: 100px;
     padding-bottom: 66px;
     flex-direction: column;
     align-items: center;
     padding: 0;
   }
-  .team__modal--right {
-    max-width: 100%;
-  }
   .team__modal-img {
     width: 300px;
-    max-width: 100%;
     height: 500px;
-    max-height: 100%;
     margin: 20px 0;
-    margin-top: 800px;
   }
   .team__close--mobile {
     display: block;
@@ -2900,19 +2828,12 @@ body {
     padding-top: 20px;
   }
   .team__modal-wrapper {
-    padding-top: 100px;
     padding-bottom: 66px;
-    flex-direction: column;
-    align-items: center;
-    padding: 100px 0 0;
   }
   .team__modal-img {
     width: 400px;
-    max-width: 100%;
     height: 550px;
-    max-height: 100%;
     margin: 20px 0;
-    margin-top: 700px;
   }
   .team__modal-name {
     font-size: 30px;
@@ -2930,19 +2851,11 @@ body {
     padding-top: 20px;
   }
   .team__modal-wrapper {
-    padding-top: 100px;
     padding-bottom: 66px;
-    flex-direction: column;
-    align-items: center;
-    padding: 100px 0 0;
   }
   .team__modal-img {
     width: 300px;
-    max-width: 100%;
     height: 400px;
-    max-height: 100%;
-    margin: 20px 0;
-    margin-top: 100px;
   }
   .team__modal-name {
     font-size: 25px;
@@ -2959,20 +2872,7 @@ body {
 @media screen and (max-width: 375px) {
   .team__modal-img {
     width: 300px;
-    max-width: 100%;
     height: 350px;
-    max-height: 100%;
-    margin: 20px 0;
-    margin-top: 500px;
-  }
-  .team__modal-name {
-    font-size: 25px;
-  }
-  .team__modal-bio {
-    font-size: 20px;
-  }
-  .team__modal-contact {
-    font-size: 20px;
   }
 }
 .address {
