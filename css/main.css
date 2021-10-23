@@ -54,11 +54,16 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+<<<<<<< HEAD
+  align-items: center;
+  justify-content: space-around;
+=======
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+>>>>>>> 441479c753fc6ceb011535d66e4ac9d3deb9eb80
   cursor: pointer;
 }
 
@@ -68,7 +73,10 @@ body {
 }
 
 .header__box {
+<<<<<<< HEAD
+=======
   -webkit-transition: 0.3s;
+>>>>>>> 441479c753fc6ceb011535d66e4ac9d3deb9eb80
   transition: 0.3s;
   width: 31px;
   height: 31px;
@@ -110,7 +118,6 @@ body {
   border: 2px solid #ED111D;
   border-radius: 5px;
   color: #fff;
-  -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
@@ -167,12 +174,17 @@ body {
   left: 50%;
   bottom: -7%;
 }
+<<<<<<< HEAD
+=======
 
+>>>>>>> 441479c753fc6ceb011535d66e4ac9d3deb9eb80
 .intro__item {
-  -webkit-transition: 0.5s;
   transition: 0.5s;
 }
+<<<<<<< HEAD
+=======
 
+>>>>>>> 441479c753fc6ceb011535d66e4ac9d3deb9eb80
 .intro__item:nth-child(1) {
   display: none;
 }
@@ -210,7 +222,6 @@ body {
   color: transparent;
   background-repeat: no-repeat;
   background-size: cover;
-  -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
@@ -221,7 +232,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   font-weight: bold;
-  -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
@@ -233,7 +243,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   font-weight: bold;
-  -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
@@ -246,7 +255,6 @@ body {
   line-height: 100.52%;
   text-align: right;
   color: rgba(0, 0, 0, 0.6);
-  -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
@@ -259,7 +267,6 @@ body {
   text-align: center;
   color: rgba(0, 0, 0, 0.6);
   text-align: center;
-  -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
@@ -270,12 +277,18 @@ body {
   line-height: 100.52%;
   color: rgba(0, 0, 0, 0.6);
 }
+<<<<<<< HEAD
+=======
 
+>>>>>>> 441479c753fc6ceb011535d66e4ac9d3deb9eb80
 .intro__text--btn:hover {
   font-weight: bold;
   color: #000;
 }
+<<<<<<< HEAD
+=======
 
+>>>>>>> 441479c753fc6ceb011535d66e4ac9d3deb9eb80
 .intro__text--btn--icon {
   position: absolute;
   -webkit-transform: translateY(-7px) translateX(-18px);
