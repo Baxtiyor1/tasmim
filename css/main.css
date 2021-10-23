@@ -42,15 +42,8 @@ body {
 .header__item:first-child {
   width: 120px;
   display: flex;
-<<<<<<< HEAD
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-=======
   align-items: center;
->>>>>>> bed1652af17fed7c55659fa24cdf29c851f79c70
+  justify-content: space-around;
   cursor: pointer;
 }
 .header__item:first-child:hover .header__box {
@@ -58,13 +51,7 @@ body {
   height: 37px;
 }
 .header__box {
-<<<<<<< HEAD
-  -webkit-transition: 0.3s;
   transition: 0.3s;
-=======
-  transition: 0.2s;
-  margin-right: 6px;
->>>>>>> bed1652af17fed7c55659fa24cdf29c851f79c70
   width: 31px;
   height: 31px;
   background: #FFFFFF;
@@ -95,7 +82,6 @@ body {
   border: 2px solid #ED111D;
   border-radius: 5px;
   color: #fff;
-  -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 .header__phone--link:hover {
@@ -145,15 +131,9 @@ body {
   left: 50%;
   bottom: -7%;
 }
-<<<<<<< HEAD
-
 .intro__item {
-  -webkit-transition: 0.5s;
   transition: 0.5s;
 }
-
-=======
->>>>>>> bed1652af17fed7c55659fa24cdf29c851f79c70
 .intro__item:nth-child(1) {
   display: none;
 }
@@ -180,7 +160,6 @@ body {
   color: transparent;
   background-repeat: no-repeat;
   background-size: cover;
-  -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 .intro__text--marketing {
@@ -190,7 +169,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   font-weight: bold;
-  -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 .intro__text--agentsva {
@@ -201,7 +179,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   font-weight: bold;
-  -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 .intro__text--smart {
@@ -213,7 +190,6 @@ body {
   line-height: 100.52%;
   text-align: right;
   color: rgba(0, 0, 0, 0.6);
-  -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 .intro__text--discription {
@@ -225,7 +201,6 @@ body {
   text-align: center;
   color: rgba(0, 0, 0, 0.6);
   text-align: center;
-  -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 .intro__text--btn {
@@ -235,15 +210,10 @@ body {
   line-height: 100.52%;
   color: rgba(0, 0, 0, 0.6);
 }
-<<<<<<< HEAD
-
 .intro__text--btn:hover {
   font-weight: bold;
   color: #000;
 }
-
-=======
->>>>>>> bed1652af17fed7c55659fa24cdf29c851f79c70
 .intro__text--btn--icon {
   position: absolute;
   transform: translateY(-7px) translateX(-18px);
