@@ -107,3 +107,36 @@ try{
     });
 }catch{console.log('swipper err')}
 
+try{
+    let partnerSlider = new Swiper(".partner__slider", {
+        
+        // navigation: {
+        //     nextEl: ".slider_next_btn",
+        //     prevEl: ".slider_prev_btn",
+        // },
+        
+        // slidesPerView: ,
+        spaceBetween: 0,
+        
+        //REsponsive
+        breakpoints: {
+            0: {
+                slidesPerView: 2.5,
+                // spaceBetween: 0,
+            },
+            560: {
+                slidesPerView: 3.2,
+                //   spaceBetween: 0,
+            },
+            1115: {
+                slidesPerView: 4,
+                //   spaceBetween: 20,
+            },
+            1427: {
+                slidesPerView: 5,
+                //   spaceBetween: 50,
+            }
+        }
+    });
+}catch{console.log('swipper err')}
+

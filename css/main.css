@@ -994,11 +994,6 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -1021,14 +1016,12 @@ body {
   transition: 0.5s;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 950px) {
   .partner__menu {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    padding: 35px 0 32px;
   }
-  .partner__link {
-    margin: 0 15px;
+  .partner__img {
+    width: 115px;
   }
 }
 
