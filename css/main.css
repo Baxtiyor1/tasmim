@@ -3445,6 +3445,7 @@ body {
 .address {
   padding: 21px 0 125px;
   background-color: #fff;
+  overflow: hidden;
 }
 
 .address__head {

@@ -13,7 +13,7 @@ elModalCloseBtn.addEventListener('click', ()=>{
 // ------------ team modal ---------
 try{
     const elTeamOpenBtn = document.querySelectorAll('.team__open');
-    const elTeamCloseBtn = document.querySelector('#team__modal--close');
+    const elTeamCloseBtn = document.querySelectorAll('#team__modal--close');
     const elTeamModal = document.querySelector('.team__modal');
     
     elTeamOpenBtn.forEach(btn =>{
@@ -21,9 +21,11 @@ try{
             elTeamModal.classList.add('team__modal__active')
         });
     })
-    elTeamCloseBtn.addEventListener('click', ()=>{
-        elTeamModal.classList.remove('team__modal__active')
-    });
+    elTeamCloseBtn.forEach(btn =>{
+        btn.addEventListener('click', ()=>{
+            elTeamModal.classList.remove('team__modal__active')
+        });
+    })
 }catch{console.log('modal error')}
 
 
