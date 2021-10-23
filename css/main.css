@@ -674,10 +674,17 @@ body {
   display: flex;
   justify-content: space-between;
 }
+.team__box--about {
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
 .team__item {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.team__item--about {
+  margin-bottom: 20px;
 }
 .team__imgbox {
   width: 363px;
@@ -738,7 +745,12 @@ body {
   .team {
     padding-bottom: 60px;
   }
+  .team__box--about {
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
   .team__item {
+    margin: 0 10px;
     width: 250px;
   }
   .team__imgbox {
