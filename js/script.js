@@ -11,23 +11,21 @@ elModalCloseBtn.addEventListener('click', ()=>{
 })
 
 // ------------ team modal ---------
-<<<<<<< HEAD
 try{
     const elTeamOpenBtn = document.querySelectorAll('.team__open');
-const elTeamCloseBtn = document.querySelector('.team__close');
-const elTeamModal = document.querySelector('.team__modal');
-
-console.log(elTeamCloseBtn)
-elTeamOpenBtn.forEach(btn =>{
-    btn.addEventListener('click', ()=>{
-        elTeamModal.classList.add('team__modal__active')
+    const elTeamCloseBtn = document.querySelector('#team__modal--close');
+    const elTeamModal = document.querySelector('.team__modal');
+    
+    console.log(elTeamCloseBtn)
+    elTeamOpenBtn.forEach(btn =>{
+        btn.addEventListener('click', ()=>{
+            elTeamModal.classList.add('team__modal__active')
+        });
+    })
+    elTeamCloseBtn.addEventListener('click', ()=>{
+        elTeamModal.classList.remove('team__modal__active')
     });
-})
-elTeamCloseBtn.addEventListener('click', ()=>{
-    elTeamModal.classList.remove('team__modal__active')
-});
 }catch{console.log('modal error')}
-=======
 
 
 // const elTeamOpenBtn = document.querySelectorAll('.team__open');
@@ -40,37 +38,36 @@ elTeamCloseBtn.addEventListener('click', ()=>{
 // elTeamCloseBtn.addEventListener('click', ()=>{
 //     elTeamModal.classList.remove('team__modal__active')
 // });
->>>>>>> f2e1c7e277859584f75645e5d4834fcfdee2f956
 // console.log(elTeamOpenBtn)
 
 
 // ********** price section price titles *************
 try{
     const priceWebBtn = document.querySelector('#web');
-const priceProdBtn = document.querySelector('#prod');
-const priceExtraBtn = document.querySelector('#extra');
-
-priceWebBtn.addEventListener('click', ()=>{
-    if(priceWebBtn.classList.value !== 'price__title--btn price__title--btn--active'){
-        priceWebBtn.classList.add('price__title--btn--active')
-        priceProdBtn.classList.remove('price__title--btn--active')
-        priceExtraBtn.classList.remove('price__title--btn--active')
-    }
-})
-priceProdBtn.addEventListener('click', ()=>{
-    if(priceProdBtn.classList.value !== 'price__title--btn price__title--btn--active'){
-        priceProdBtn.classList.add('price__title--btn--active')
-        priceWebBtn.classList.remove('price__title--btn--active')
-        priceExtraBtn.classList.remove('price__title--btn--active')
-    }
-})
-priceExtraBtn.addEventListener('click', ()=>{
-    if(priceExtraBtn.classList.value !== 'price__title--btn price__title--btn--active'){
-        priceExtraBtn.classList.add('price__title--btn--active')
-        priceWebBtn.classList.remove('price__title--btn--active')
-        priceProdBtn.classList.remove('price__title--btn--active')
-    }
-})
+    const priceProdBtn = document.querySelector('#prod');
+    const priceExtraBtn = document.querySelector('#extra');
+    
+    priceWebBtn.addEventListener('click', ()=>{
+        if(priceWebBtn.classList.value !== 'price__title--btn price__title--btn--active'){
+            priceWebBtn.classList.add('price__title--btn--active')
+            priceProdBtn.classList.remove('price__title--btn--active')
+            priceExtraBtn.classList.remove('price__title--btn--active')
+        }
+    })
+    priceProdBtn.addEventListener('click', ()=>{
+        if(priceProdBtn.classList.value !== 'price__title--btn price__title--btn--active'){
+            priceProdBtn.classList.add('price__title--btn--active')
+            priceWebBtn.classList.remove('price__title--btn--active')
+            priceExtraBtn.classList.remove('price__title--btn--active')
+        }
+    })
+    priceExtraBtn.addEventListener('click', ()=>{
+        if(priceExtraBtn.classList.value !== 'price__title--btn price__title--btn--active'){
+            priceExtraBtn.classList.add('price__title--btn--active')
+            priceWebBtn.classList.remove('price__title--btn--active')
+            priceProdBtn.classList.remove('price__title--btn--active')
+        }
+    })
 }catch{console.log('err')}
 
 
@@ -79,15 +76,15 @@ priceExtraBtn.addEventListener('click', ()=>{
 
 try{
     let mySlider = new Swiper(".team__slider", {
-    
+        
         navigation: {
             nextEl: ".slider_next_btn",
             prevEl: ".slider_prev_btn",
         },
         
-        slidesPerView: 4,
+        // slidesPerView: ,
         spaceBetween: 0,
-    
+        
         //REsponsive
         breakpoints: {
             0: {
@@ -99,12 +96,12 @@ try{
                 //   spaceBetween: 0,
             },
             1115: {
-              slidesPerView: 3,
-            //   spaceBetween: 20,
+                slidesPerView: 3,
+                //   spaceBetween: 20,
             },
             1427: {
-              slidesPerView: 4,
-            //   spaceBetween: 50,
+                slidesPerView: 4,
+                //   spaceBetween: 50,
             }
         }
     });

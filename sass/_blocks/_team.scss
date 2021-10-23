@@ -83,12 +83,6 @@
         padding-bottom: 60px;
         &__item{
             width: 250px;
-            &:last-child{
-                display: none;
-            }
-            &:nth-child(3){
-                display: none;
-            }
         }
         &__imgbox{
             width: 250px;
