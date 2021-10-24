@@ -117,6 +117,12 @@
                 transform: scale(1.05);
             }
         }
+        &--link{
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 100.52%;
+            color: #FFFFFF;
+        }
         &--disk{
             margin: 0 14px 0 11px;
             width: 10px;
