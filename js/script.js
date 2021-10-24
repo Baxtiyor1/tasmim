@@ -34,12 +34,24 @@ try{
     const priceWebBtn = document.querySelector('#web');
     const priceProdBtn = document.querySelector('#prod');
     const priceExtraBtn = document.querySelector('#extra');
+    const elWeb = document.querySelector('#web_razrabotka')
+    const elEncorage = document.querySelector('#encorage')
+    const elExtra = document.querySelector('#extra_price')
+
+    
+
+
     
     priceWebBtn.addEventListener('click', ()=>{
         if(priceWebBtn.classList.value !== 'price__title--btn price__title--btn--active'){
             priceWebBtn.classList.add('price__title--btn--active')
             priceProdBtn.classList.remove('price__title--btn--active')
             priceExtraBtn.classList.remove('price__title--btn--active')
+        }
+        if(elWeb.classList.value !== 'price__box price__box--active'){
+            elWeb.classList.add('price__box--active')
+            elEncorage.classList.remove('price__box--active')
+            elExtra.classList.remove('price__box--active')
         }
     })
     priceProdBtn.addEventListener('click', ()=>{
@@ -48,12 +60,22 @@ try{
             priceWebBtn.classList.remove('price__title--btn--active')
             priceExtraBtn.classList.remove('price__title--btn--active')
         }
+        if(elEncorage.classList.value !== 'price__box price__box--active'){
+            elEncorage.classList.add('price__box--active')
+            elWeb.classList.remove('price__box--active')
+            elExtra.classList.remove('price__box--active')
+        }
     })
     priceExtraBtn.addEventListener('click', ()=>{
         if(priceExtraBtn.classList.value !== 'price__title--btn price__title--btn--active'){
             priceExtraBtn.classList.add('price__title--btn--active')
             priceWebBtn.classList.remove('price__title--btn--active')
             priceProdBtn.classList.remove('price__title--btn--active')
+        }
+        if(elExtra.classList.value !== 'price__box price__box--active'){
+            elExtra.classList.add('price__box--active')
+            elWeb.classList.remove('price__box--active')
+            elEncorage.classList.remove('price__box--active')
         }
     })
 }catch{console.log('err')}
@@ -71,7 +93,7 @@ try{
         },
         
         // slidesPerView: ,
-        spaceBetween: 0,
+        // spaceBetween: 0,
         
         //REsponsive
         breakpoints: {

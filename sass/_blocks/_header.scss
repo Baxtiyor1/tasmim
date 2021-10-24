@@ -10,15 +10,15 @@
             width: 120px;
             display: flex;
             align-items: center;
-            justify-content: space-around;
+            // justify-content: space-around;
             cursor: pointer;
             &:hover .header__box{
-                width: 37px;
-                height: 37px;
+                transform: scale(1.2);
             }
         }
     }
     &__box{
+        margin-right: 6px;
         transition: 0.3s;
         width: 31px;
         height: 31px;

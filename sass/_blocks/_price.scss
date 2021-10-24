@@ -60,10 +60,13 @@
     }
     &__box{
         margin-top: 142px;
-        display: flex;
+        display: none; //flex
         flex-wrap: wrap;
         justify-content: space-between;
         align-items: center;
+        &--active{
+            display: flex;
+        }
         &--item{
             margin-bottom: 72px;
             transition: 0.5s;

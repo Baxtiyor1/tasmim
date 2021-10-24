@@ -53,10 +53,6 @@
         position: relative;
         &--box{
             margin-right: 20px;
-            font-weight: 500;
-            font-size: 30px;
-            line-height: 156.02%;
-            color: #fff;
             display: flex;
         }
         &--num{
@@ -64,6 +60,13 @@
             max-width: 100%;
             margin-right: 10px;
             text-align: center;
+            font-weight: 500;
+            font-size: 30px;
+            line-height: 156.02%;
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+            color: #fff;
             &:first-child{
                 border-bottom: 6px solid #fff;
                 border-radius: 2px;
@@ -71,12 +74,14 @@
         }
         &--btn{
             padding: 13px 18px;
-            font-weight: 500;
+            font-weight: 700;
             font-size: 18px;
             line-height: 100.52%;
             cursor: pointer;
             background: #fff;
+            border-radius: 5px;
             transition: 0.5s;
+            border: none;
             &:hover{
                 box-shadow: 0 0 3px 3px #fff;
             }

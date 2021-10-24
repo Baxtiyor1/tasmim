@@ -26,11 +26,30 @@
         background-color: transparent;
         border: none;
         cursor: pointer;
+        & img{
+            transition: 0.5s;
+            &:hover{
+                transform: scale(1.2);
+            }
+        }
+    }
+    &__list{
+        width: 600px;
+        max-width: 100%;
     }
     &__item{
-        margin-bottom: 48px;
+        // padding-bottom: 48px;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        transition: 0.5s;
+        &:hover{
+            padding-left: 20px;
+            transform: translateX(20px);
+            background-color: rgba(0, 255, 255, 0.248);
+        }
         &:last-child{
-            margin-bottom: 0;
+            padding-bottom: 0;
         }
     }
     &__link{
@@ -64,6 +83,7 @@
             padding: 40px 0 130px 70px;
         }
         &__item{
+            height: auto;
             margin-bottom: 35px;
             &:last-child{
                 margin-bottom: 0;
