@@ -3132,6 +3132,7 @@ body {
 
 .result {
   background-color: #FFF;
+  overflow: hidden;
 }
 
 .result__cards-menu {
@@ -3370,11 +3371,7 @@ body {
   left: 0;
   right: 0;
   z-index: 4;
-  bottom: 500px;
-  -webkit-transition: 1s;
-  transition: 1s;
   overflow: auto;
-  padding: 50px 250px;
   opacity: 0;
   -webkit-transform: scale(0.3);
           transform: scale(0.3);
@@ -3394,9 +3391,11 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .team__modal--right {
@@ -3422,7 +3421,6 @@ body {
   width: 490px;
   max-width: 100%;
   height: 790px;
-  margin-right: 100px;
 }
 
 .team__modal-contact {
@@ -3473,44 +3471,17 @@ body {
   line-height: 100.52%;
 }
 
-@media screen and (max-width: 1733px) {
-  .team__modal {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    padding: 0;
-  }
+@media screen and (max-width: 1739px) {
   .team__modal--right {
     width: 553px;
   }
   .team__modal-img {
-    margin-right: 80px;
+    width: 28vw;
+    height: 45vw;
   }
 }
 
 @media screen and (max-width: 1587px) {
-  .team__modal {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    padding: 0;
-  }
-  .team__modal__active {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
-  }
-  .team__modal-wrapper {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-  }
   .team__modal--right {
     width: 653px;
   }
@@ -3519,15 +3490,9 @@ body {
 @media screen and (max-width: 1200px) {
   .team__modal {
     max-width: 100%;
-    padding: 50px;
   }
   .team__modal--right {
     width: 453px;
-  }
-  .team__modal-img {
-    width: 500px;
-    height: 750px;
-    margin-right: 50px;
   }
   .team__modal-name {
     font-weight: bold;
@@ -3543,10 +3508,9 @@ body {
 @media screen and (max-width: 950px) {
   .team__modal {
     overflow: auto;
-    padding-top: 20px;
   }
   .team__modal-wrapper {
-    padding-bottom: 66px;
+    padding: 360px 0 66px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -3559,17 +3523,19 @@ body {
     text-align: center;
   }
   .team__modal-bio {
+    margin-bottom: 47px;
     max-width: 100%;
     text-align: center;
   }
   .team__modal--right {
+    padding: 0 10px;
     width: 600px;
     max-width: 100%;
   }
   .team__modal-img {
     width: 500px;
     height: 700px;
-    margin: 20px 0;
+    margin: 0 0 20px;
   }
   .team__modal-contact {
     max-width: 100%;
@@ -3584,87 +3550,33 @@ body {
 }
 
 @media screen and (max-width: 600px) {
-  .team__modal {
-    overflow: auto;
-    padding-top: 20px;
-  }
-  .team__modal-wrapper {
-    padding-bottom: 66px;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    padding: 0;
-  }
   .team__modal-img {
     width: 300px;
     height: 500px;
-    margin: 20px 0;
-  }
-  .team__close--mobile {
-    display: block;
-  }
-  .team__close {
-    display: none;
   }
 }
 
 @media screen and (max-width: 500px) {
   .team__modal {
     overflow: auto;
-    padding-top: 20px;
   }
   .team__modal-wrapper {
     padding-bottom: 66px;
-  }
-  .team__modal-img {
-    width: 400px;
-    height: 550px;
-    margin: 20px 0;
-  }
-  .team__modal-name {
-    font-size: 30px;
-  }
-  .team__modal-bio {
-    font-size: 20px;
-  }
-  .team__modal-contact {
-    font-size: 20px;
-  }
-}
-
-@media screen and (max-width: 375px) {
-  .team__modal {
-    overflow: auto;
-    padding-top: 20px;
-  }
-  .team__modal-wrapper {
-    padding-bottom: 66px;
-  }
-  .team__modal-img {
-    width: 300px;
-    height: 400px;
   }
   .team__modal-name {
     font-size: 25px;
   }
   .team__modal-bio {
-    font-size: 20px;
-    margin-bottom: 20px;
+    font-size: 16px;
   }
   .team__modal-contact {
-    font-size: 20px;
-    margin-bottom: 20px;
+    font-size: 16px;
   }
 }
 
-@media screen and (max-width: 320px) {
-  .team__modal-img {
-    width: 300px;
-    height: 350px;
+@media screen and (max-width: 375px) {
+  .team__modal-wrapper {
+    padding-bottom: 66px;
   }
 }
 

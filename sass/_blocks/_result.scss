@@ -1,6 +1,6 @@
 .result{
     background-color: #FFF;
-
+    overflow: hidden;
     &__cards-menu{
         display: flex;
         align-items: center;
@@ -18,7 +18,7 @@
         box-sizing: border-box;
         padding: 3px 0 37px 0;
         margin-bottom: 20px;
-
+        
     }
     &__number{
         font-size: 100px;
@@ -97,8 +97,8 @@
             flex-wrap: wrap;
             margin-top: 79px;
         }
-        }
     }
+}
 
 @media only screen and (max-width: 768px){
     .result{
@@ -106,9 +106,9 @@
             width: 500px;
             font-size: 16px;
         }
-       
-        }
+        
     }
+}
 @media only screen and (max-width: 520px){
     .result{
         &__cards-menu{
@@ -123,7 +123,7 @@
             width: 414px;
             height: 206px;
             margin-bottom: 20px;
-    
+            
         }
         &__number{
             font-size: 80px;
@@ -152,6 +152,6 @@
                 font-size: 16px;
                 
             }
-            }
         }
     }
+}
