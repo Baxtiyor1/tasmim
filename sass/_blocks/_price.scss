@@ -238,3 +238,12 @@
         }
     }
 }
+@media screen and (max-width: 375px) {
+    .price{
+        &__box{
+            &--text{
+                height: auto;
+            }
+        }
+    }
+}
