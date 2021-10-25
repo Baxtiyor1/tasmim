@@ -3,6 +3,7 @@
     padding: 96px 0 65px;
     background-color: #fff;
     &__container{
+        position: relative;
         &::after{
             position: absolute;
             width: 21px;
@@ -109,7 +110,7 @@
     &__message--icon{
         position: fixed;
         z-index: 8;
-        top: 52vw;
+        bottom: 6vw;
         right: 6vw;
         & .icon{
             fill: #000;

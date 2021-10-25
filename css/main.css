@@ -155,6 +155,10 @@ body {
   background-color: #fff;
 }
 
+.intro__container {
+  position: relative;
+}
+
 .intro__container::after {
   position: absolute;
   width: 21px;
@@ -288,7 +292,7 @@ body {
 .intro__message--icon {
   position: fixed;
   z-index: 8;
-  top: 52vw;
+  bottom: 6vw;
   right: 6vw;
 }
 
