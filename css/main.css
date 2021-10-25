@@ -109,6 +109,7 @@ body {
   border: 2px solid #ED111D;
   border-radius: 5px;
   color: #fff;
+  -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
@@ -165,10 +166,13 @@ body {
   left: 50%;
   bottom: -7%;
 }
+
 .intro__item {
+  -webkit-transition: 0.5s;
   transition: 0.5s;
 }
-.intro__item:nth-child(1) {
+
+.intro__item:first-child {
   display: none;
 }
 
@@ -205,6 +209,7 @@ body {
   color: transparent;
   background-repeat: no-repeat;
   background-size: cover;
+  -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
@@ -215,6 +220,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   font-weight: bold;
+  -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
@@ -226,6 +232,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   font-weight: bold;
+  -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
@@ -238,6 +245,7 @@ body {
   line-height: 100.52%;
   text-align: right;
   color: rgba(0, 0, 0, 0.6);
+  -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
@@ -250,6 +258,7 @@ body {
   text-align: center;
   color: rgba(0, 0, 0, 0.6);
   text-align: center;
+  -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
@@ -260,10 +269,12 @@ body {
   line-height: 100.52%;
   color: rgba(0, 0, 0, 0.6);
 }
+
 .intro__text--btn:hover {
   font-weight: bold;
   color: #000;
 }
+
 .intro__text--btn--icon {
   position: absolute;
   -webkit-transform: translateY(-7px) translateX(-18px);
@@ -320,6 +331,21 @@ body {
 @media screen and (min-width: 1739px) {
   .intro__text {
     font-size: 150px;
+  }
+  .intro__text--agentsva {
+    margin-left: 616px;
+  }
+  .intro__text--smart {
+    margin-left: 177px;
+    width: 167px;
+  }
+  .intro__text--creativno {
+    margin-left: 87px;
+  }
+  .intro__text--discription {
+    margin-left: 1000px;
+    font-size: 20px;
+    width: 545px;
   }
 }
 
@@ -581,6 +607,14 @@ body {
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
 }
+
+.price__box--link {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 100.52%;
+  color: #FFFFFF;
+}
+
 .price__box--disk {
   margin: 0 14px 0 11px;
   width: 10px;
@@ -866,6 +900,7 @@ body {
 }
 
 .team__box--about {
+  padding-top: 155px;
   -ms-flex-pack: distribute;
       justify-content: space-around;
   -ms-flex-wrap: wrap;
@@ -3294,18 +3329,24 @@ body {
   top: 0;
   left: 0;
   right: 0;
-  z-index: 9;
+  z-index: 4;
   bottom: 500px;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
+  -webkit-transition: 1s;
+  transition: 1s;
   overflow: auto;
   padding: 50px 250px;
+  opacity: 0;
+  -webkit-transform: scale(0.3);
+          transform: scale(0.3);
 }
 
 .team__modal__active {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  opacity: 1;
+  -webkit-transform: scale(1);
+          transform: scale(1);
 }
 
 .team__modal-wrapper {
@@ -3375,6 +3416,10 @@ body {
   border: none;
 }
 
+.team__close-img {
+  cursor: pointer;
+}
+
 .team__close--mobile {
   margin: 50px auto 0;
   display: none;
@@ -3433,19 +3478,8 @@ body {
 
 @media screen and (max-width: 1200px) {
   .team__modal {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
     max-width: 100%;
     padding: 50px;
-  }
-  .team__modal-wrapper {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
   }
   .team__modal--right {
     width: 453px;
@@ -3545,14 +3579,6 @@ body {
   }
   .team__modal-wrapper {
     padding-bottom: 66px;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    padding: 100px 0 0;
   }
   .team__modal-img {
     width: 400px;
@@ -3577,20 +3603,10 @@ body {
   }
   .team__modal-wrapper {
     padding-bottom: 66px;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    padding: 100px 0 0;
   }
   .team__modal-img {
     width: 300px;
     height: 400px;
-    max-height: 100%;
-    margin: 20px 0;
   }
   .team__modal-name {
     font-size: 25px;

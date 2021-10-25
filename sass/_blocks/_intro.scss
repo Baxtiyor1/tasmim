@@ -143,6 +143,21 @@
     .intro{
         &__text{
             font-size: 150px;
+            &--agentsva{
+                margin-left: 616px;
+            }
+            &--smart{
+                margin-left: 177px;
+                width: 167px;
+            }
+            &--creativno{
+                margin-left: 87px;
+            }
+            &--discription{
+                margin-left: 1000px;
+                font-size: 20px;
+                width: 545px;
+            }
         }
     }
 }
