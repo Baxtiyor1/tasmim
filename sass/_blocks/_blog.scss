@@ -212,6 +212,11 @@
         display: flex;
         flex-direction: column;
         align-items: flex-end;
+        & img{
+            width: 484px;
+            max-width: 100%;
+            height: 3px;
+        }
     }
     &__input{
         padding: 14px 0 10px;
@@ -240,6 +245,9 @@
         outline: none;
     }
     &__line{
+        width: 376px;
+        max-width: 100%;
+        height: 3px;
         margin-bottom: 40px;
     }
     &__btn{
@@ -285,17 +293,18 @@
 }
 @media screen and (max-width: 950px) {
     .contact{
-        margin: 0;
+        margin: 0 auto;
         padding: 0;
         margin-top: 110px;
         border: none;
         border-radius: 0;
-        max-width: 95%;
+        max-width: 97%;
         &__title{
             font-size: 30px;
             display: none;
         }
         &__box{
+            width: 100%;
             margin-top: 50px;
             flex-direction: column;
         }
@@ -304,6 +313,10 @@
         }
         &__bside{
             width: 100%;
+            & img{
+                width: 100%;
+                // height: 2px;
+            }
         }
         &__textarea{
             width: 100%;
@@ -312,6 +325,10 @@
         &__btn{
             margin: 0 auto;
             margin-top: 50px;
+        }
+        &__line{
+            width: 100%;
+            // height: 2px;
         }
         &__mobile{
             &--box{
