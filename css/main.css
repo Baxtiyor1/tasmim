@@ -176,12 +176,13 @@ body {
 }
 
 .intro__line {
+  width: 30px;
   height: 160px;
 }
 
 .intro__mouse {
   margin-top: -150px;
-  animation: mouseScroll 4s infinite 1s alternate-reverse;
+  animation: mouseScroll 2s infinite 1s alternate-reverse;
 }
 
 .intro__item {

@@ -14,11 +14,12 @@
             align-items: center;
         }
         &__line{
+            width: 30px;
             height: 160px;
         }
         &__mouse{
             margin-top: -150px;
-            animation: mouseScroll 4s infinite 1s alternate-reverse;
+            animation: mouseScroll 2s infinite 1s alternate-reverse;
         }
         &__item{
             transition: 0.5s;
