@@ -159,16 +159,29 @@ body {
   position: relative;
 }
 
-.intro__container::after {
+.intro__animationBox {
   position: absolute;
-  width: 21px;
-  height: 206px;
-  content: '';
-  background-image: url("/img/sichqoncha_img.svg");
-  background-repeat: no-repeat;
-  background-position: center;
+  bottom: 0;
   left: 50%;
-  bottom: -7%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.intro__line {
+  height: 160px;
+}
+
+.intro__mouse {
+  margin-top: -150px;
+  animation: mouseScroll 4s infinite 1s alternate-reverse;
 }
 
 .intro__item {
@@ -330,6 +343,36 @@ body {
 
 .intro__icon--box img:hover {
   opacity: 1;
+}
+
+@-webkit-keyframes mouseScroll {
+  0% {
+    margin-top: -80px;
+  }
+  25% {
+    margin-top: 0;
+  }
+  75% {
+    margin-top: -100px;
+  }
+  100% {
+    margin-top: 0;
+  }
+}
+
+@keyframes mouseScroll {
+  0% {
+    margin-top: -80px;
+  }
+  25% {
+    margin-top: 0;
+  }
+  75% {
+    margin-top: -100px;
+  }
+  100% {
+    margin-top: 0;
+  }
 }
 
 @media screen and (min-width: 1739px) {
@@ -2990,7 +3033,7 @@ body {
 .we__text--sew {
   z-index: 4;
   position: absolute;
-  bottom: 20px;
+  bottom: 35px;
   right: 50px;
 }
 
@@ -3003,7 +3046,7 @@ body {
     left: 100px;
   }
   .we__text--sew {
-    bottom: 20px;
+    bottom: 35px;
     right: 40px;
   }
 }
@@ -3017,7 +3060,7 @@ body {
     left: 80px;
   }
   .we__text--sew {
-    bottom: 20px;
+    bottom: 35px;
     right: 30px;
   }
 }
@@ -3033,7 +3076,7 @@ body {
   }
   .we__text--sew {
     width: 300px;
-    bottom: 20px;
+    bottom: 35px;
     right: 30px;
   }
 }
@@ -3049,7 +3092,7 @@ body {
   }
   .we__text--sew {
     width: 260px;
-    bottom: 20px;
+    bottom: 35px;
     right: 20px;
   }
 }
@@ -3065,7 +3108,7 @@ body {
   }
   .we__text--sew {
     width: 220px;
-    bottom: 20px;
+    bottom: 35px;
     right: 10px;
   }
 }
@@ -3081,7 +3124,7 @@ body {
   }
   .we__text--sew {
     width: 210px;
-    bottom: 20px;
+    bottom: 35px;
     right: 10px;
   }
 }
@@ -3097,7 +3140,7 @@ body {
   }
   .we__text--sew {
     width: 200px;
-    bottom: 20px;
+    bottom: 35px;
     right: 10px;
   }
 }
@@ -3113,7 +3156,7 @@ body {
   }
   .we__text--sew {
     width: 160px;
-    bottom: 20px;
+    bottom: 35px;
     right: 10px;
   }
 }
@@ -3129,7 +3172,7 @@ body {
   }
   .we__text--sew {
     width: 130px;
-    bottom: 5px;
+    bottom: 20px;
     right: 0px;
   }
 }
@@ -3145,7 +3188,7 @@ body {
   }
   .we__text--sew {
     width: 100px;
-    bottom: 5px;
+    bottom: 20px;
     right: 0px;
   }
 }
